@@ -1,0 +1,8 @@
+(Done) - Turn based selection
+(Done) - Movement of enemy
+(Done) - Telling what / whos turn it is
+(Done) - Add new color to outline renderer
+
+ - Show attack ranges
+ - user feedback when crit, show damage ect.
+ - Win / Lose
