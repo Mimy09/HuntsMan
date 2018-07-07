@@ -1,10 +1,20 @@
 <h2>Added</h2>
 
-- fixed the accidental movement when clicking
+- fixed the accidental grid selection when clicking
 
-- blockout map added
+- Added block out map
 
 - Added dissolve effect when camera goes to close to object
+
+- Added console to log errors during runtime
+
+- Add info above units
+
+- Added two buttons in bottom right of screen
+
+  - Attack Button
+  
+  - Ability Button
 
 
 <h2>Info</h2>
