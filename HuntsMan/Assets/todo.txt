@@ -10,4 +10,4 @@
 
  - Win / Lose
 
- - build error logging system
+ - fix enemy line of sight check

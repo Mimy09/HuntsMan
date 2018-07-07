@@ -197,10 +197,21 @@ public class Manager : MonoBehaviour {
             }
         } else if (teamTurn == 2) {
             for (int i = 0; i < team1.Count; i++) {
+                // Check range
                 if (Vector3.Distance(selected.transform.position, team1[i].transform.position) < range) {
-                    targeted.Add(team1[i].GetComponent<Character>());
-                    targeted[targeted.Count - 1].targeted = true;
+                    // Check line of sight
+                    RaycastHit hit;
+                    if (Physics.Raycast(selected.transform.position + selected.transform.up, (team1[i].transform.position + team1[i].transform.up) - (selected.transform.position + selected.transform.up), out hit)) {
+                        if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Unit")) {
+                            Debug.DrawLine(selected.transform.position + selected.transform.up, team1[i].transform.position + team1[i].transform.up, Color.green, 5);
+
+                            // Add to targeted
+                            targeted.Add(team1[i].GetComponent<Character>());
+                            targeted[targeted.Count - 1].targeted = true;
+                        }
+                    }
                 }
+
             }
         }
 
