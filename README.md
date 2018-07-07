@@ -1,3 +1,5 @@
+<h2>Builds</h2>
+
 [Download build (v0.2-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2-prototype "HuntsMan")
 
 <h2>Added</h2>
