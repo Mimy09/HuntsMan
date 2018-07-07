@@ -4,47 +4,34 @@
 
 [Download build (v0.2-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2-prototype "HuntsMan")
 
+
 <h2>Added (v0.2-prototype)</h2>
 
-- Fixed the accidental grid selection when clicking
-
-- Fixed enemy targeting 
-
-- Added block out map
-
-- Added dissolve effect when camera goes to close to object
-
-- Added console to log errors during runtime
-
-- Add info above units
-
-- Added two buttons in bottom right of screen
-
-  - Attack Button
-  
-  - Ability Button
+* Fixed the accidental grid selection when clicking
+* Fixed enemy targeting 
+* Added block out map
+* Added dissolve effect when camera goes to close to object
+* Added console to log errors during runtime
+* Add info above units
+* Added two buttons in bottom right of screen
+  * Attack Button
+  * Ability Button
 
 
 <h2>Info</h2>
 There are 3 types of units
 
-- Melee (Black)
-
-  - Health: 100
+* Melee (Black)
+  * Health: 100
+  * AP: 10
   
-  - AP: 10
+* Ranged (Green)
+  * Health: 50
+  * AP: 7
   
-- Ranged (Green)
-
-  - Health: 50
-  
-  - AP: 7
-  
-- Magic (Purple)
-
-  - Health: 75
-  
-  - AP: 5
+* Magic (Purple)
+  * Health: 75
+  * AP: 5
 
 <h2>Controls</h2>
 
