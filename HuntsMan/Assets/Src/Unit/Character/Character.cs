@@ -35,8 +35,6 @@ public class Character : Unit {
     public override void Update() {
         base.Update();
 
-        
-
         if (navMeshAgent.destination == this.transform.position) {
             if (selected && createGrid == true) {
                 ClearGrid();
@@ -48,10 +46,6 @@ public class Character : Unit {
             lineRenderer.positionCount = 0;
             canMove = true;
             Realign();
-        }
-
-        if (isDead()) {
-            Destroy(this.gameObject);
         }
 
         if (path == null) return;
@@ -82,11 +76,12 @@ public class Character : Unit {
     }
 
     void OnDrawGizmosSelected() {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, equiptedWeapon.range);
+        if (Application.isPlaying) {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, equiptedWeapon.range);
 
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, abilities[0].range);
-
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, abilities[0].range);
+        }
     }
 }

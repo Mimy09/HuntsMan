@@ -16,7 +16,7 @@ public class Manager : MonoBehaviour {
     public int teamTurn;
 
     private bool canSelect;
-
+    private bool gameStart;
 
     void Awake () {
         // Set instance
@@ -44,7 +44,7 @@ public class Manager : MonoBehaviour {
         targeted = null;
     }
 
-    private void Start() {
+    public void LookAtTeam() {
         if (teamTurn == 1) {
             playerCamera.CamLookAt(team1[Random.Range(0, team1.Count - 1)].transform.position);
         } else if (teamTurn == 2) {
@@ -60,6 +60,24 @@ public class Manager : MonoBehaviour {
             case 2:
                 team2.Add(character);
                 break;
+        }
+    }
+
+    public void RemoveFromTeam(GameObject character, int team) {
+        if (team == 1) {
+            for (int i = 0; i < team1.Count; i++) {
+                if (character == team1[i]) {
+                    team1.Remove(character);
+                    break;
+                }
+            }
+        } else if (team == 2) {
+            for (int i = 0; i < team2.Count; i++) {
+                if (character == team2[i]) {
+                    team2.Remove(character);
+                    break;
+                }
+            }
         }
     }
 
@@ -80,6 +98,10 @@ public class Manager : MonoBehaviour {
 
     public bool IsTeamTurn(int teamID) {
         return teamTurn == teamID ? true : false;
+    }
+
+    public Unit GetSelected() {
+        return selected;
     }
 
     public void ClearSelected() {
@@ -158,9 +180,19 @@ public class Manager : MonoBehaviour {
 
         if (teamTurn == 1) {
             for (int i = 0; i < team2.Count; i++) {
+                // Check range
                 if (Vector3.Distance(selected.transform.position, team2[i].transform.position) < range) {
-                    targeted.Add(team2[i].GetComponent<Character>());
-                    targeted[targeted.Count - 1].targeted = true;
+                    // Check line of sight
+                    RaycastHit hit;
+                    if (Physics.Raycast(selected.transform.position + selected.transform.up, (team2[i].transform.position + team2[i].transform.up) - (selected.transform.position + selected.transform.up), out hit)) {
+                        if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Unit")) {
+                            Debug.DrawLine(selected.transform.position + selected.transform.up, team2[i].transform.position + team2[i].transform.up, Color.green, 5);
+
+                            // Add to targeted
+                            targeted.Add(team2[i].GetComponent<Character>());
+                            targeted[targeted.Count - 1].targeted = true;
+                        }
+                    }
                 }
             }
         } else if (teamTurn == 2) {
@@ -176,6 +208,12 @@ public class Manager : MonoBehaviour {
     }
 
     private void LateUpdate() {
+        if (gameStart == false) {
+            gameStart = true;
+            LookAtTeam();
+        }
+
+        // Use Weapon
         if (Input.GetKeyDown(KeyCode.Q)) {
             UseWeapon();
         }
@@ -190,9 +228,16 @@ public class Manager : MonoBehaviour {
             EndTurn();
         }
 
-        // Everything after this will not be called if the cursor is over the UI
+        // Quit Game
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
+
+
+        // --- Everything after this will not be called if the cursor is over the UI ---
         if (EventSystem.current.IsPointerOverGameObject()) return;
 
+        // If cam is dragging, stop player mouse selection input
         if (Input.GetMouseButton(0)) {
             if (playerCamera.isDarging) {
                 canSelect = false;
@@ -207,45 +252,79 @@ public class Manager : MonoBehaviour {
 
         // Select Unit
         if (Input.GetMouseButtonUp(0)) {
-            if (selected == null) {
-                selected = playerCamera.SelectCharacter();
+            Unit temp = playerCamera.SelectCharacter();
+            
+            if (temp != null && IsInTeam(temp.gameObject, teamTurn)) {
 
-                if (selected != null) {
-                    selected.CreateGrid();
-                    selected.selected = true;
-                    playerCamera.CamLookAt(selected.transform.position);
+                if (selected == null) {
+                    selected = temp;
+
+                    if (selected != null) {
+                        selected.CreateGrid();
+                        selected.selected = true;
+                        playerCamera.CamLookAt(selected.transform.position);
+                    }
+
+                } else {
+                    // If another unit is selected
+                    if (temp != null) {
+
+                        ClearSelected();
+                        ClearTargeted();
+
+                        selected = temp;
+                        selected.selected = true;
+                        selected.CreateGrid();
+
+                        playerCamera.CamLookAt(selected.transform.position);
+                    }
                 }
+            } else if (temp != null && !IsInTeam(temp.gameObject, teamTurn)) {
 
+                // If clicked on enemy thats is targeted
+                // Attack Target
+                if (targeted != null && selected != null) {
+                    Unit target = playerCamera.SelectCharacter();
+
+                    if (target != null) {
+                        // Check if attack target is in targeted range
+                        for (int i = 0; i < targeted.Count; i++) {
+                            if (target == targeted[i]) {
+
+                                // Attack using ether weapon or ability
+                                if (selected.weaponSelected) {
+                                    selected.Attack(target);
+                                } else if (selected.abilitySelected != -1) {
+                                    selected.UseAbility(selected.abilitySelected, target);
+                                }
+                                return;
+                            }
+                        }
+                    }
+                }
             } else {
-                Unit temp = playerCamera.SelectCharacter();
+                GameObject grid = playerCamera.SelectGrid();
 
-                // If another unit is selected
-                if (temp != null) {
+                // If clicked on grid
+                if (grid != null) {
+                    selected.Move(grid.transform.position, grid.GetComponent<GridID>().ID);
+                    playerCamera.CamLookAt(grid.transform.position);
+                    ClearTargeted();
+                }
+                // If clicked on nothing
+                else {
+                    if (selected != null) selected.ClearGrid();
 
                     ClearSelected();
                     ClearTargeted();
-
-                    selected = temp;
-                    selected.selected = true;
-                    selected.CreateGrid();
-
-                    playerCamera.CamLookAt(selected.transform.position);
-                }
-                // If a grid is selected
-                else {
-                    GameObject grid = playerCamera.SelectGrid();
-
-                    if (grid != null) {
-                        selected.Move(grid.transform.position, grid.GetComponent<GridID>().ID);
-                        playerCamera.CamLookAt(grid.transform.position);
-                    } else {
-                        selected.ClearGrid();
-                        ClearSelected();
-                        ClearTargeted();
-                    }
                 }
             }
         }
+
+
+        // ################################################################# 
+        // ############ Thinking of deleting this functionality ############
+        // #################################################################
 
         // Attack Target
         if (Input.GetMouseButtonDown(1) && targeted != null && selected != null) {

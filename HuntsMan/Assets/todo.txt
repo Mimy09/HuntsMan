@@ -4,8 +4,10 @@
 (Done) - Add new color to outline renderer
 
  - Show attack ranges (Kinda Done)
-	- Showing thing out of line of sight
+	(Done) - Showing thing out of line of sight
 
  - user feedback when crit, show damage ect.
 
  - Win / Lose
+
+ - build error logging system

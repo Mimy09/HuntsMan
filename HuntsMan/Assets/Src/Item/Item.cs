@@ -33,8 +33,6 @@ public class Item {
     public virtual string GetStats() {
         string msg = "";
         msg += "Name: " + name + "\n";
-        msg += "Description : " + description + "\n";
-        msg += "ID : " + ID + "\n";
         msg += "Cost : " + actionPoints + "\n";
 
         return msg;

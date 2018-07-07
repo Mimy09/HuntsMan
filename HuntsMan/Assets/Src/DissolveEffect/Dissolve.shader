@@ -7,7 +7,7 @@
 		_BurnRamp("Burn Ramp (RGB)", 2D) = "white" {}
 		_Scale("Scale", float) = 0.25
 		_DissolveRate("Disolve Rate", float) = 10.0
-		_DissolveDistance("Disolve Distance", Range(0.0, 1.0)) = 0.2
+		_DissolveDistance("Disolve Distance", Range(0.0, 10.0)) = 0.2
 	}
 	SubShader{
 		Tags{ "RenderType" = "Opaque" }

@@ -105,6 +105,11 @@ public class Unit : MonoBehaviour {
                     break;
             }
         }
+
+        if (isDead()) {
+            Manager.instance.RemoveFromTeam(gameObject, teamID);
+            Destroy(this.gameObject);
+        }
     }
 
     public virtual void Move(Vector3 position, int actionPoints) {
@@ -178,10 +183,18 @@ public class Unit : MonoBehaviour {
         string msg = "";
         msg += "Health: " + health + "\n";
         msg += "Action Points: " + actionPoints + "\n";
+        return msg;
+    }
 
-        msg += "\nWeapon: \n" + equiptedWeapon.GetStats() + "\n";
+    public string GetWeaponStats() {
+        string msg = "";
+        msg += "Weapon: \n" + equiptedWeapon.GetStats() + "\n";
+        return msg;
+    }
+
+    public string GetAbilityStats() {
+        string msg = "";
         msg += "Ability: \n" + abilities[0].GetStats() + "\n";
-
         return msg;
     }
 }

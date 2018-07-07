@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerCamera : MonoBehaviour {
 
@@ -64,6 +65,8 @@ public class PlayerCamera : MonoBehaviour {
         // move to pivot position
         this.LookAt.position = Vector3.Lerp(this.LookAt.position, LookAtPos, Time.deltaTime * followSpeed);
 
+        
+
         // Drag rotation around function
         if (Input.GetAxis("Mouse X") > 0.001f || Input.GetAxis("Mouse X") < -0.001f || Input.GetAxis("Mouse Y") > 0.001f || Input.GetAxis("Mouse Y") < -0.001f) {
             if (Input.GetMouseButton(0)) {
@@ -81,17 +84,22 @@ public class PlayerCamera : MonoBehaviour {
                 isDarging = false;
             }
         }
-        // Zoom In
-        if (Input.GetAxis("Mouse ScrollWheel") > 0) {
-            if (Vector3.Distance(LookAt.position, Pivot.position) > minimumZoom) {
-                Pivot.transform.position += Pivot.transform.forward;
-            }
-        }
 
-        // Zoom Out
-        if (Input.GetAxis("Mouse ScrollWheel") < 0) {
-            if (Vector3.Distance(LookAt.position, Pivot.position) < maximumZoom) {
-                Pivot.transform.position -= Pivot.transform.forward;
+        // --- Do not zoom if the cursor is over the UI ---
+        if (!EventSystem.current.IsPointerOverGameObject()) {
+
+            // Zoom In
+            if (Input.GetAxis("Mouse ScrollWheel") > 0) {
+                if (Vector3.Distance(LookAt.position, Pivot.position) > minimumZoom) {
+                    Pivot.transform.position += Pivot.transform.forward;
+                }
+            }
+
+            // Zoom Out
+            if (Input.GetAxis("Mouse ScrollWheel") < 0) {
+                if (Vector3.Distance(LookAt.position, Pivot.position) < maximumZoom) {
+                    Pivot.transform.position -= Pivot.transform.forward;
+                }
             }
         }
 
