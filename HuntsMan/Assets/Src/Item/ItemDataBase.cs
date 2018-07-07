@@ -9,78 +9,121 @@ public class ItemDataBase : MonoBehaviour {
     public static List<Ability> abilities = new List<Ability>();
 
     private void Awake() {
-        // Weapons
+        // ################################################################## Weapons
         // name, desc, id, actionPoints, damage, critDamage, critChance, Type
         weapons.Add(new Weapon(new Item(
-            "Weapon_test_1",    // Name
-            "",                 // Description
-            weapons.Count,      // ID
-            2),                 // Action Points
-            5,                  // Damage
-            1.5f,               // CritDamage
-            20,                 // CritChance
-            5,                  // Range
-            Weapon.Item_Type.Melee // Type
+            "Weapon_test_1",        // Name
+            "",                     // Description
+            weapons.Count,          // ID
+            2),                     // Action Points
+            5,                      // Damage
+            1.5f,                   // CritDamage
+            20,                     // CritChance
+            5,                      // Range
+            Weapon.Item_Type.Melee  // Type
             ));
 
-        // Abilities
+        weapons.Add(new Weapon(new Item(
+            "Melee",                // Name
+            "Default Melee Weapon", // Description
+            weapons.Count,          // ID
+            2),                     // Action Points
+            5,                      // Damage
+            1.5f,                   // CritDamage
+            20,                     // CritChance
+            5,                      // Range
+            Weapon.Item_Type.Melee  // Type
+            ));
+
+        weapons.Add(new Weapon(new Item(
+            "Magic",                // Name
+            "Default Magic Weapon", // Description
+            weapons.Count,          // ID
+            3),                     // Action Points
+            5,                      // Damage
+            1.2f,                   // CritDamage
+            30,                     // CritChance
+            10,                     // Range
+            Weapon.Item_Type.Magic  // Type
+            ));
+
+        weapons.Add(new Weapon(new Item(
+            "Ranged",               // Name
+            "Default Ranged Weapon",// Description
+            weapons.Count,          // ID
+            3),                     // Action Points
+            5,                      // Damage
+            1.5f,                   // CritDamage
+            50,                     // CritChance
+            20,                     // Range
+            Weapon.Item_Type.Ranged // Type
+            ));
+
+        // ################################################################## Abilities
         // name, desc, id, actionPoints, damage, critDamage, critChance, Type
         abilities.Add(new Ability(new Item(
-            "Ability_test_1",   // Name
-            "",                 // Description
-            abilities.Count,    // ID
-            5),                 // Action Points
-            20,                 // Damage
-            2,                  // CritDamage
-            20,                 // CritChance
-            20,                 // Range
+            "Ability_test_1",       // Name
+            "",                     // Description
+            abilities.Count,        // ID
+            5),                     // Action Points
+            20,                     // Damage
+            2,                      // CritDamage
+            20,                     // CritChance
+            20,                     // Range
             Ability.Ability_Type.SingleTarget, // Type
 
             // Ability function
             (Unit unit, Unit other, Ability ability) => {
-                if (Vector3.Distance(unit.transform.position, other.transform.position) > ability.range) {
-                    Debug.Log("Too far away!");
-                    return false;
-                }
-
-                
-                RaycastHit hit;
-                if (Physics.Raycast(unit.transform.position + unit.transform.up, (other.transform.position + other.transform.up) - (unit.transform.position + unit.transform.up), out hit)) {
-                    Debug.DrawLine(unit.transform.position + unit.transform.up, hit.point, Color.red, 5);
-
-                    if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Unit")) {
-                        Debug.DrawLine(unit.transform.position + unit.transform.up, other.transform.position + other.transform.up, Color.gray, 5);
-
-                        float r = Random.value;
-
-                        float damage = ability.damage;
-                        if (r <= ability.critChance / 100) {
-                            damage *= ability.critDamage;
-                            Debug.Log("Crit!");
-                        }
-
-                        other.health -= damage;
-                        return true;
-                    }
-                } else {
-                    Debug.DrawLine(unit.transform.position + unit.transform.up, other.transform.position + other.transform.up, Color.green, 5);
-
-                    float damage = ability.damage;
-                    if (Random.value >= ability.critChance / 100) {
-                        damage *= ability.critDamage;
-                        Debug.Log("Crit!");
-                    }
-
-                    other.health -= ability.damage;
-
-                    return true;
-                }
-                return false;
+                return Ability_Default(unit, other, ability);
             }));
 
 
     }
 
+    bool Ability_Default(Unit unit, Unit other, Ability ability) {
+        if (Vector3.Distance(unit.transform.position, other.transform.position) > ability.range) {
+            Debug.Log("Too far away!");
+            return false;
+        }
+
+
+        RaycastHit hit;
+        if (Physics.Raycast(unit.transform.position + unit.transform.up, (other.transform.position + other.transform.up) - (unit.transform.position + unit.transform.up), out hit)) {
+            Debug.DrawLine(unit.transform.position + unit.transform.up, hit.point, Color.red, 5);
+
+            if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Unit")) {
+                Debug.DrawLine(unit.transform.position + unit.transform.up, other.transform.position + other.transform.up, Color.gray, 5);
+
+                float r = Random.value;
+
+                float damage = ability.damage;
+                if (r <= ability.critChance / 100) {
+                    damage *= ability.critDamage;
+                    Debug.Log("Crit!");
+                }
+
+                other.health -= damage;
+                return true;
+            }
+        } else {
+            Debug.DrawLine(unit.transform.position + unit.transform.up, other.transform.position + other.transform.up, Color.green, 5);
+
+            float damage = ability.damage;
+            if (Random.value >= ability.critChance / 100) {
+                damage *= ability.critDamage;
+                Debug.Log("Crit!");
+            }
+
+            other.health -= ability.damage;
+
+            return true;
+        }
+        return false;
+    }
+
+    bool Weapon_Default(Unit unit, Unit other, Ability ability) {
+        return false;
+    }
 
     public static Weapon FindWeapon(int id) {
         return weapons[id];

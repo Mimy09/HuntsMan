@@ -19,91 +19,45 @@ public class PlayerCamera : MonoBehaviour {
     public float minimumZoom;
     public float maximumZoom;
 
-    public UnityEngine.UI.Text infoText;
-    public UnityEngine.UI.Text targetText;
-
-    Unit selected;
-    Unit secondSelected;
+    public bool isDarging;
 
     float m_rotationY;
     Vector3 LookAtPos;
-
-    List<GameObject> team1 = new List<GameObject>();
-    List<GameObject> team2 = new List<GameObject>();
-
-    public int teamTurn;
 
     private void Awake() {
         LookAtPos = new Vector3();
 
         Pivot.transform.LookAt(LookAt);
-
-        teamTurn = 1;
     }
 
-    public void AddToTeam(GameObject character, int team) {
-        switch (team) {
-            case 1:
-                team1.Add(character);
-                break;
-            case 2:
-                team2.Add(character);
-                break;
-        }
-        
-    }
+    public Unit SelectCharacter() {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
 
-    public bool IsTeamTurn(int teamID) {
-        return teamTurn == teamID ? true : false;
-    }
-
-    public bool IsInTeam(GameObject character, int team) {
-        if (team == 1) {
-            for (int i = 0; i < team1.Count; i++) {
-                if (character == team1[i]) return true;
-            } return false;
-        } else if (team == 2) {
-            for (int i = 0; i < team2.Count; i++) {
-                if (character == team2[i]) return true;
-            }
-            return false;
-        }
-        return false;
-    }
-
-    public void EndTurn()
-    {
-        if (teamTurn == 1) {
-            teamTurn = 2;
-            for (int i = 0; i < team2.Count; i++)
-                team2[i].GetComponent<Character>().ResetActionPoints();
-
-            LookAtPos = team2[0].transform.position;
-        } else if (teamTurn == 2) {
-            teamTurn = 1;
-            for (int i = 0; i < team1.Count; i++)
-                team1[i].GetComponent<Character>().ResetActionPoints();
-            LookAtPos = team1[0].transform.position;
+        if (Physics.Raycast(ray, out hit, 100.0f, 1 << LayerMask.NameToLayer("Unit"))) {
+            return hit.transform.gameObject.GetComponent<Character>();
         }
 
-        if (secondSelected != null) secondSelected.targeted = false;
+        return null;
+    }
 
-        selected.ClearGrid();
-        selected.selected = false;
-        selected = null;
+    public GameObject SelectGrid() {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit, 100.0f)) {
+            if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Grid"))
+                return hit.transform.gameObject;
+        }
+
+        return null;
+    }
+
+    public void CamLookAt(Vector3 pos) {
+        LookAtPos = new Vector3(pos.x, 0, pos.z);
     }
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            EndTurn();
-        }
-
-        if (selected != null) infoText.text = selected.GetStats();
-        else infoText.text = "";
-
-        if (secondSelected != null && selected != null) targetText.text = secondSelected.GetStats();
-        else targetText.text = "";
-
         // Look at pivot
         transform.LookAt(LookAt);
 
@@ -121,7 +75,10 @@ public class PlayerCamera : MonoBehaviour {
                 LookAt.localEulerAngles = new Vector3(-m_rotationY, LookAt.localEulerAngles.y, 0);
 
                 this.transform.position = Vector3.Lerp(this.transform.position, Pivot.position, Time.deltaTime * followSpeed);
-                return;
+
+                isDarging = true;
+            } else {
+                isDarging = false;
             }
         }
         // Zoom In
@@ -151,87 +108,6 @@ public class PlayerCamera : MonoBehaviour {
             this.transform.position = Vector3.Lerp(this.transform.position, Pivot.position, Time.deltaTime * 20);
         } else {
             this.transform.position = Vector3.Lerp(this.transform.position, Pivot.position, Time.deltaTime * followSpeed);
-        }
-
-        // Select character
-        if (Input.GetMouseButtonDown(0)) {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (selected == null) {
-                if (Physics.Raycast(ray, out hit, 100.0f, 1 << LayerMask.NameToLayer("Unit"))) {
-                    if (IsInTeam(hit.transform.gameObject, teamTurn)) {
-
-                        if (secondSelected != null) secondSelected.targeted = false;
-                    
-                        selected = hit.transform.gameObject.GetComponent<Character>();
-                        selected.selected = true;
-                        selected.CreateGrid();
-
-                        LookAtPos = hit.transform.position;
-                    }
-
-                }
-            } else {
-                if (Physics.Raycast(ray, out hit)) {
-                    if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Unit")) {
-                        if (IsInTeam(hit.transform.gameObject, teamTurn)) {
-                            if (secondSelected != null) secondSelected.targeted = false;
-
-                            selected.ClearGrid();
-                            selected.selected = false;
-
-
-                            selected = hit.transform.gameObject.GetComponent<Character>();
-                            selected.CreateGrid();
-                            selected.selected = true;
-
-                            LookAtPos = hit.transform.position;
-                        }
-
-                    } else if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Grid")) {
-                        if (secondSelected != null) secondSelected.targeted = false;
-
-                        selected.Move(hit.transform.position, hit.transform.GetComponent<GridID>().ID);
-                        LookAtPos = hit.transform.position;
-                    } else {
-                        if (secondSelected != null) secondSelected.targeted = false;
-
-                        selected.ClearGrid();
-                        selected.selected = false;
-                        selected = null;
-                    }
-                }
-            }
-        }
-
-        // Attack
-        if (Input.GetMouseButtonDown(1) && selected != null) {
-            if (secondSelected != null) secondSelected.targeted = false;
-
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit, 100.0f, 1 << LayerMask.NameToLayer("Unit"))) {
-                secondSelected = hit.transform.gameObject.GetComponent<Character>();
-                secondSelected.targeted = true;
-            }
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q)) {
-            if (selected != null) {
-                CircleGen.GenCircle(selected.transform.position, selected.equiptedWeapon.range * 2);
-            }
-            //if (secondSelected != null && selected != null) {
-            //    selected.Attack(secondSelected);
-            //}
-        }
-        if (Input.GetKeyDown(KeyCode.W)) {
-            if (selected != null) {
-                CircleGen.GenCircle(selected.transform.position, selected.abilities[0].range * 2);
-            }
-            //if (secondSelected != null && selected != null) {
-            //    selected.UseAbility(0, secondSelected);
-            //}
         }
     }
 }

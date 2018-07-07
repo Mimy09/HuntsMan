@@ -67,9 +67,18 @@ public class Character : Unit {
     public override void Start() {
         base.Start();
 
-        equiptedWeapon = ItemDataBase.FindWeapon("Weapon_test_1");
+        if (weapon != "")
+            equiptedWeapon = ItemDataBase.FindWeapon(weapon);
+        else
+            equiptedWeapon = ItemDataBase.FindWeapon("Weapon_test_1");
 
-        abilities.Add(ItemDataBase.FindAbility("Ability_test_1"));
+        if (ability.Count != 0) {
+            for (int i = 0; i < ability.Count; i++) {
+                abilities.Add(ItemDataBase.FindAbility(ability[i]));
+            }
+        } else {
+            abilities.Add(ItemDataBase.FindAbility("Ability_test_1"));
+        }
     }
 
     void OnDrawGizmosSelected() {

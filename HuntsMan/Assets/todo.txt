@@ -3,6 +3,9 @@
 (Done) - Telling what / whos turn it is
 (Done) - Add new color to outline renderer
 
- - Show attack ranges
+ - Show attack ranges (Kinda Done)
+	- Showing thing out of line of sight
+
  - user feedback when crit, show damage ect.
+
  - Win / Lose

@@ -18,7 +18,8 @@ public class Spawner : MonoBehaviour {
                     GameObject temp = objSpawn[Random.Range(0, objSpawn.Length)] as GameObject;
                     GameObject character = Instantiate(temp, transform.position, Quaternion.identity);
                     character.GetComponent<Character>().SetTeam(teamID);
-                    Camera.main.GetComponent<PlayerCamera>().AddToTeam(character, teamID);
+
+                    Manager.instance.AddToTeam(character, teamID);
                 }
                 break;
             case 2: {
@@ -28,7 +29,8 @@ public class Spawner : MonoBehaviour {
                     GameObject temp = objSpawn[Random.Range(0, objSpawn.Length)] as GameObject;
                     GameObject character = Instantiate(temp, transform.position, Quaternion.identity);
                     character.GetComponent<Character>().SetTeam(teamID);
-                    Camera.main.GetComponent<PlayerCamera>().AddToTeam(character, teamID);
+
+                    Manager.instance.AddToTeam(character, teamID);
                 }
                 break;
         }

@@ -5,17 +5,29 @@ using UnityEngine;
 
 [System.Serializable]
 public class Unit : MonoBehaviour {
+    // Unit Variables
     public float health;
     public int actionPoints;
-    public Texture2D icon;
-    public bool selected;
-    public bool targeted;
-
-    public Weapon equiptedWeapon;
-    public List<Ability> abilities = new List<Ability>();
-
+    private int maxActionPoionts;
     
+    // Selected Variables
+    [HideInInspector]
+    public bool selected;
+    [HideInInspector]
+    public bool targeted;
+    [HideInInspector]
+    public bool weaponSelected;
+    [HideInInspector]
+    public int abilitySelected;
 
+    // Weapon Variables
+    public string weapon;
+    public Weapon equiptedWeapon;
+
+    public List<string> ability;
+    public List<Ability> abilities = new List<Ability>();
+    
+    // Movement Variables
     protected GameObject grid;
     protected NavMeshAgent navMeshAgent;
     protected MeshFilter meshFilter;
@@ -24,13 +36,12 @@ public class Unit : MonoBehaviour {
     protected bool canMove = true;
     protected bool createGrid = false;
 
+    // Out-liner
     protected cakeslice.Outline graphicsOutLine;
-    protected PlayerCamera pc;
 
+    // Team Variables
     private int teamID;
     private bool isTeamTurn;
-    private int maxActionPoionts;
-
 
     public virtual void Start() {
         canMove = true;
@@ -54,8 +65,6 @@ public class Unit : MonoBehaviour {
             lineRenderer.startColor = Color.cyan;
             lineRenderer.endColor = Color.cyan;
         }
-
-        pc = Camera.main.GetComponent<PlayerCamera>();
     }
 
     public void SetTeam(int ID) {
@@ -63,7 +72,7 @@ public class Unit : MonoBehaviour {
     }
 
     public virtual void Update() {
-        isTeamTurn = pc.IsTeamTurn(teamID);
+        isTeamTurn = Manager.instance.IsTeamTurn(teamID);
 
         if (targeted) {
             graphicsOutLine.color = 3;
