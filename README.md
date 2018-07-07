@@ -4,9 +4,11 @@
 
 [Download build (v0.2-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2-prototype "HuntsMan")
 
-<h2>Added</h2>
+<h2>Added (v0.2-prototype)</h2>
 
-- fixed the accidental grid selection when clicking
+- Fixed the accidental grid selection when clicking
+
+- Fixed enemy targeting 
 
 - Added block out map
 
