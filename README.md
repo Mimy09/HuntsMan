@@ -1,5 +1,10 @@
-<h2>Info</h2>
+<h2>Added</h2>
+- fixed the accidental movement when clicking
+- blockout map added
+- Added dissolve effect when camera goes to close to object
 
+
+<h2>Info</h2>
 There are 3 types of units
 - Melee (Black)
   - Health: 100
@@ -10,12 +15,6 @@ There are 3 types of units
 - Magic (Purple)
   - Health: 75
   - AP: 5
-
-
-- There are 8 enemies
-- enemies have less health
-- fixed the accidental movement when clicking
-- blockout map added
 
 <h2>Controls</h2>
 
