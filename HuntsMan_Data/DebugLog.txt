@@ -1,3 +1,7 @@
-################################## 7/7/2018 7:03:33 PM
+################################## 7/8/2018 2:07:17 PM
+Init Console
+UnityEngine.Debug:Log(Object)
+Console:Start() (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/UI/console/Console.cs:51)
+
 
 
