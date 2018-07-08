@@ -1,13 +1,13 @@
 <h2>Builds</h2>
 
-[Download build (v0.3-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.3-prototype "HuntsMan")
-
-[Download build (v0.2a-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2a-prototype "HuntsMan")
-
-[Download build (v0.2-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2-prototype "HuntsMan")
+[Download build (v0.3-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.3-prototype "HuntsMan")</br>
+[Download build (v0.2a-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2a-prototype "HuntsMan")</br>
+[Download build (v0.2-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2-prototype "HuntsMan")</br>
 
 <h2>Added (v0.3-prototype)</h2>
 
+* Ability button taken out
+* Debug Console now working 
 * Added feedback when attacking
 * Added win / lose UI
 * Added full selected stats for unit UI
@@ -27,7 +27,6 @@
 
 
 <h2>Info</h2>
-There are 3 types of units
 
 | Units        | Color             |
 |:-------------|:------------------|
@@ -37,7 +36,7 @@ There are 3 types of units
 
 <h2>Controls</h2>
 
-<b>Note:</b> Both attack have a range and only work if there is line of
+<b>Note:</b> Attacks have range and only work if there is line of
 sight between selected character and target. Units that can be attacked
 will be outlined.
 
@@ -58,7 +57,7 @@ will be outlined.
 * This displays any errors or logs that happen in game and will output them to a file called DebugLog.txt that is located in the data file next to the .exe
 
 <b>Attack</b>
-* When click will perform same action as 'Q' but will also outline enemys that are in range when hovering over the button
+* This will outline enemys that are in range when hovering over the button. When clicked will activate the weapon and then you can select the enemy you want to attck
 
 
 
