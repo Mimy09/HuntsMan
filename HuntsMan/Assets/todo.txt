@@ -16,3 +16,7 @@
 	maybe no rotation after look at pos is too far away
 
  - fix grid to not use for loop
+	- run pathfinding on each tile and get distance
+	- square grid
+	- run on new thread
+	- not in grid tiles but using pre-generated positions on unit
