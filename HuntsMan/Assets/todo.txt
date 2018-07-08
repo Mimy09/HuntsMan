@@ -1,13 +1,18 @@
-(Done) - Turn based selection
-(Done) - Movement of enemy
-(Done) - Telling what / whos turn it is
-(Done) - Add new color to outline renderer
+ - Show attack ranges (Kinda Done) Maybe circle range ui
 
- - Show attack ranges (Kinda Done)
-	(Done) - Showing thing out of line of sight
+(done) - user feedback when crit, show damage ect.
 
- - user feedback when crit, show damage ect.
+(done) - Win / Lose
 
- - Win / Lose
+(done) - Humans turn / Monster turn UI
 
- - fix enemy line of sight check
+(done) - Full states of selected UI
+
+ - set up pause and settings menus
+
+ - set up title screen
+
+ - fix cam moveing to fast 360 rotation
+	maybe no rotation after look at pos is too far away
+
+ - fix grid to not use for loop

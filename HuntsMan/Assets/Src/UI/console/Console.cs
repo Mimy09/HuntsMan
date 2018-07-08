@@ -8,6 +8,9 @@ public class Console : MonoBehaviour {
     public UnityEngine.UI.Text errorDisplay;
     private int errorCount;
 
+    public string message;
+    public string stacktrace;
+
     void OnEnable() {
         Application.logMessageReceived += HandleLog;
     }
@@ -26,6 +29,9 @@ public class Console : MonoBehaviour {
     void HandleLog(string logString, string stackTrace, LogType type) {
         if (!Debug.isDebugBuild) return;
 
+        message = logString;
+        stacktrace = stackTrace;
+
         if (type == LogType.Error) {
             errorCount++;
             if (errorDisplay != null) {
@@ -33,15 +39,16 @@ public class Console : MonoBehaviour {
                 errorDisplay.color = Color.red;
             }
         }
+
         text = text + logString + "\n" + stackTrace + "\n";
     }
 
     private void Start() {
-        if (Debug.isDebugBuild) {
-            consoleText = GetComponent<UnityEngine.UI.Text>();
-        } else {
-            Destroy(gameObject);
+        if (!Debug.isDebugBuild) {
+            Destroy(gameObject);   
         }
+
+        Debug.Log("Init Console");
     }
 
     private void Update() {

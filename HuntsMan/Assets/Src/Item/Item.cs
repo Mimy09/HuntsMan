@@ -40,6 +40,8 @@ public class Item {
 }
 [System.Serializable]
 public class Weapon : Item {
+    Func<Unit, Unit, Weapon, bool> callback;
+
     public float damage;
     public float critDamage;
     public float critChance;
@@ -50,7 +52,7 @@ public class Weapon : Item {
         Ranged,
         Magic,
     } public Item_Type itemType;
-    public Weapon(Item item, float damage, float critDamage, float critChance, float range, Item_Type type) {
+    public Weapon(Item item, float damage, float critDamage, float critChance, float range, Item_Type type, Func<Unit, Unit, Weapon, bool> callback) {
         this.name = item.name;
         this.description = item.description;
         this.ID = item.ID;
@@ -63,6 +65,12 @@ public class Weapon : Item {
         this.critDamage = critDamage;
         this.itemType = type;
         this.range = range;
+
+        this.callback = callback;
+    }
+
+    public bool UseWeapon(Unit unit, Unit other) {
+        return this.callback(unit, other, this);
     }
 
     public override string GetStats() {

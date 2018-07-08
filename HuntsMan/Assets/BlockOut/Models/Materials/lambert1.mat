@@ -23,7 +23,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BurnRamp:
-        m_Texture: {fileID: 2800000, guid: 8aca51313712a21479235c9575475f0b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 899cb655ad0b8c44088a8946ae3e9f60, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:

@@ -28,14 +28,14 @@ public class GenerateGrid : MonoBehaviour {
         GameObject gridParant = new GameObject("Grid");
 
         Vector3 temp = new Vector3();
-        for (int i = m_gridSize; i < actionPoints * m_gridSize; i+= m_gridSize) {
+        for (int i = m_gridSize; i < (actionPoints + 1) * m_gridSize; i+= m_gridSize) {
             if (CheckGrid(temp = new Vector3(i, 0.1f, 0) + Position)) Instantiate(grid, temp, Quaternion.identity, gridParant.transform).GetComponent<GridID>().ID = i / m_gridSize;
             if (CheckGrid(temp = new Vector3(-i, 0.1f, 0) + Position)) Instantiate(grid, temp, Quaternion.identity, gridParant.transform).GetComponent<GridID>().ID = i / m_gridSize;
 
             if (CheckGrid(temp = new Vector3(0, 0.1f, i) + Position)) Instantiate(grid, temp, Quaternion.identity, gridParant.transform).GetComponent<GridID>().ID = i / m_gridSize;
             if (CheckGrid(temp = new Vector3(0, 0.1f, -i) + Position)) Instantiate(grid, temp, Quaternion.identity, gridParant.transform).GetComponent<GridID>().ID = i / m_gridSize;
 
-            for (int j = m_gridSize; j < (actionPoints * m_gridSize) - i; j+= m_gridSize) {
+            for (int j = m_gridSize; j < ((actionPoints + 1) * m_gridSize) - i; j+= m_gridSize) {
                 if (CheckGrid(temp = new Vector3(i, 0.1f, j) + Position)) Instantiate(grid, temp, Quaternion.identity, gridParant.transform).GetComponent<GridID>().ID = (i + j) / m_gridSize;
                 if (CheckGrid(temp = new Vector3(i, 0.1f, -j) + Position)) Instantiate(grid, temp, Quaternion.identity, gridParant.transform).GetComponent<GridID>().ID = (i + j) / m_gridSize;
 

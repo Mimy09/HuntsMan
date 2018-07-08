@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 114958554439603694}
   - component: {fileID: 114965175729603512}
   - component: {fileID: 114082323738579724}
+  - component: {fileID: 114204016307874170}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -55,6 +56,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targeted: []
   teamTurn: 1
+--- !u!114 &114204016307874170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1074089969260138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45443fb4f425cca41bfa53268f251b3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 0
+  size: 50
+  gridSize: 2
 --- !u!114 &114958554439603694
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -14,6 +14,7 @@ public class DisplayStats : MonoBehaviour {
         UNIT,
         WEAPON,
         ABILITY,
+        TURN,
     } public StatType statType;
 
     public enum UIType {
@@ -62,6 +63,43 @@ public class DisplayStats : MonoBehaviour {
                         else if (uiType == UIType.CANVAS)
                             canvas_text.text = "Ability";
                         break;
+                    case StatType.TURN:
+                        if (uiType == UIType.TEXT3D) {
+                            if (Manager.instance.GetWinStat() == 1) {
+                                text.text = "Monsters Win";
+                                text.color = Color.blue;
+                                break;
+                            } else if (Manager.instance.GetWinStat() == 2) {
+                                text.text = "Humans Win";
+                                text.color = Color.red;
+                                break;
+                            }
+                            if (Manager.instance.GetTurnStats() == 1) {
+                                text.text = "Monsters Turn";
+                                text.color = Color.blue;
+                            } else if (Manager.instance.GetTurnStats() == 2) {
+                                text.text = "Humans Turn";
+                                text.color = Color.red;
+                            }
+                        } else if (uiType == UIType.CANVAS) {
+                            if (Manager.instance.GetWinStat() == 1) {
+                                canvas_text.text = "Monsters Win";
+                                canvas_text.color = Color.blue;
+                                break;
+                            } else if (Manager.instance.GetWinStat() == 2) {
+                                canvas_text.text = "Humans Win";
+                                canvas_text.color = Color.red;
+                                break;
+                            }
+                            if (Manager.instance.GetTurnStats() == 1) {
+                                canvas_text.text = "Monsters Turn";
+                                canvas_text.color = Color.blue;
+                            } else if (Manager.instance.GetTurnStats() == 2) {
+                                canvas_text.text = "Humans Turn";
+                                canvas_text.color = Color.red;
+                            }
+                        }
+                        break;
                 }
                 return;
             }
@@ -85,6 +123,43 @@ public class DisplayStats : MonoBehaviour {
                     text.text = unit.GetAbilityStats();
                 else if (uiType == UIType.CANVAS)
                     canvas_text.text = unit.GetAbilityStats();
+                break;
+            case StatType.TURN:
+                if (uiType == UIType.TEXT3D) {
+                    if (Manager.instance.GetWinStat() == 1) {
+                        text.text = "Monsters Win";
+                        text.color = Color.blue;
+                        break;
+                    } else if (Manager.instance.GetWinStat() == 2) {
+                        text.text = "Humans Win";
+                        text.color = Color.red;
+                        break;
+                    }
+                    if (Manager.instance.GetTurnStats() == 1) {
+                        text.text = "Monsters Turn";
+                        text.color = Color.blue;
+                    } else if (Manager.instance.GetTurnStats() == 2) {
+                        text.text = "Humans Turn";
+                        text.color = Color.red;
+                    }
+                } else if (uiType == UIType.CANVAS) {
+                    if (Manager.instance.GetWinStat() == 1) {
+                        canvas_text.text = "Monsters Win";
+                        canvas_text.color = Color.blue;
+                        break;
+                    } else if (Manager.instance.GetWinStat() == 2) {
+                        canvas_text.text = "Humans Win";
+                        canvas_text.color = Color.red;
+                        break;
+                    }
+                    if (Manager.instance.GetTurnStats() == 1) {
+                        canvas_text.text = "Monsters Turn";
+                        canvas_text.color = Color.blue;
+                    } else if (Manager.instance.GetTurnStats() == 2) {
+                        canvas_text.text = "Humans Turn";
+                        canvas_text.color = Color.red;
+                    }
+                }
                 break;
         }
     }

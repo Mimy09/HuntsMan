@@ -44,6 +44,19 @@ public class Manager : MonoBehaviour {
         targeted = null;
     }
 
+    public int GetWinStat() {
+        if (team1.Count == 0) {
+            return 2;
+        } else if (team2.Count == 0) {
+            return 1;
+        }
+        return -1;
+    }
+
+    public int GetTurnStats() {
+        return teamTurn;
+    }
+
     public void LookAtTeam() {
         if (teamTurn == 1) {
             playerCamera.CamLookAt(team1[Random.Range(0, team1.Count - 1)].transform.position);

@@ -20,6 +20,10 @@ public class Unit : MonoBehaviour {
     [HideInInspector]
     public int abilitySelected;
 
+    // Text
+    [HideInInspector]
+    public DamageText damageText;
+
     // Weapon Variables
     public string weapon;
     public Weapon equiptedWeapon;
@@ -39,6 +43,8 @@ public class Unit : MonoBehaviour {
     // Out-liner
     protected cakeslice.Outline graphicsOutLine;
 
+    
+
     // Team Variables
     private int teamID;
     private bool isTeamTurn;
@@ -50,6 +56,10 @@ public class Unit : MonoBehaviour {
         if (graphicsOutLine == null) {
             graphicsOutLine = this.transform.GetChild(0).gameObject.GetComponent<cakeslice.Outline>();
             graphicsOutLine.eraseRenderer = true;
+        }
+
+        if (damageText == null) {
+            damageText = this.transform.GetChild(1).gameObject.GetComponent<DamageText>();
         }
 
         maxActionPoionts = actionPoints;
@@ -140,22 +150,10 @@ public class Unit : MonoBehaviour {
 
     public virtual void Attack(Unit other) {
         if (equiptedWeapon.actionPoints > actionPoints) return;
-
-        switch (equiptedWeapon.itemType) {
-            case Weapon.Item_Type.Magic:
-            case Weapon.Item_Type.Melee:
-            case Weapon.Item_Type.Ranged:
-                if (Vector3.Distance(this.transform.position, other.transform.position) > equiptedWeapon.range) return;
-                float damage = equiptedWeapon.damage;
-                if (Random.value <= equiptedWeapon.critChance / 100) {
-                    damage *= equiptedWeapon.critDamage;
-                }
-                other.health -= damage;
-                actionPoints -= equiptedWeapon.actionPoints;
-                ClearGrid();
-                CreateGrid();
-
-                break;
+        if (equiptedWeapon.UseWeapon(this, other)) {
+            actionPoints -= equiptedWeapon.actionPoints;
+            ClearGrid();
+            CreateGrid();
         }
     }
 
