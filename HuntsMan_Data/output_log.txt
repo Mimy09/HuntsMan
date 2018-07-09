@@ -1,10 +1,10 @@
 Mono path[0] = 'D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/Managed'
 Mono config path = 'D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/Mono/etc'
 PlayerConnection initialized from D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55258
-Multi-casting "[IP] 192.168.0.7 [Port] 55258 [Flags] 2 [Guid] 2897737317 [EditorId] 267444547 [Version] 1048832 [Id] WindowsPlayer(Game-PC) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55258]
-PlayerConnection already initialized - listening to [0.0.0.0:55258]
+PlayerConnection initialized network socket : 0.0.0.0 55398
+Multi-casting "[IP] 192.168.0.7 [Port] 55398 [Flags] 2 [Guid] 3151330432 [EditorId] 4077786222 [Version] 1048832 [Id] WindowsPlayer(Game-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55398]
+PlayerConnection already initialized - listening to [0.0.0.0:55398]
 Player data archive not found at `D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
@@ -27,11 +27,11 @@ Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Dat
 Loading D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\System.dll (this message is harmless)
 Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.023 seconds
+- Completed reload, in  0.024 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.115520 ms
+UnloadTime: 1.079360 ms
 Init Console
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -42,9 +42,9 @@ Console:Start() (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Sr
 (Filename: D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/UI/console/Console.cs Line: 51)
 
 Setting up 6 worker threads for Enlighten.
-  Thread -> id: 2008 -> priority: 1 
-  Thread -> id: 5488 -> priority: 1 
-  Thread -> id: 33c -> priority: 1 
-  Thread -> id: 1458 -> priority: 1 
-  Thread -> id: 5238 -> priority: 1 
-  Thread -> id: 3e90 -> priority: 1 
+  Thread -> id: 30d0 -> priority: 1 
+  Thread -> id: 4a80 -> priority: 1 
+  Thread -> id: 1f88 -> priority: 1 
+  Thread -> id: 3048 -> priority: 1 
+  Thread -> id: 5874 -> priority: 1 
+  Thread -> id: 49f0 -> priority: 1 
