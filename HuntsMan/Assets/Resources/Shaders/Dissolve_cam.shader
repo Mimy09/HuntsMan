@@ -2,6 +2,7 @@
 {
 	Properties{
 		_MainTex("Albedo", 2D) = "white" {}
+		_Color("Color", Color) = (1, 1, 1, 1)
 		_Metallic("Metallic", 2D) = "white" {}
 		_MetallicFactor("Metallic Strength", Range(0,2)) = 1
 		_Roughness("Roughness", 2D) = "white" {}
@@ -42,6 +43,7 @@
 		//half _NormFactor;
 		half _MetallicFactor;
 		half _RoughnessFactor;
+		float4 _Color;
 
 		sampler2D _SliceGuide;
 		sampler2D _BurnRamp;
@@ -72,7 +74,7 @@
 			d = 1 - clamp(d, 0.0, 1.0);
 
 			clip(tex2D(_SliceGuide,UV).rgb - d);
-			o.Albedo = tex2D(_MainTex, IN.uv_MainTex).rgb;
+			o.Albedo = tex2D(_MainTex, IN.uv_MainTex).rgb * _Color;
 			o.Metallic = tex2D(_Metallic,IN.uv_Metallic).rgb * _MetallicFactor;
 			o.Smoothness = tex2D(_Roughness,IN.uv_Roughness).rgb * _RoughnessFactor;
 

@@ -8,6 +8,4 @@
  - fix cam moveing to fast 360 rotation
 	maybe no rotation after look at pos is too far away
 
-(done) - fix grid to not use for loop
-
-(done) - disolve effect of death
+(done) - add effect when using attacks

@@ -8,6 +8,12 @@ public class ItemDataBase : MonoBehaviour {
     public static List<Weapon> weapons = new List<Weapon>();
     public static List<Ability> abilities = new List<Ability>();
 
+    public enum EffectType {
+        None,
+        FireBall,
+        Arrow
+    }
+
     private void Awake() {
         // ################################################################## Weapons
         // name, desc, id, actionPoints, damage, critDamage, critChance, Type
@@ -24,7 +30,7 @@ public class ItemDataBase : MonoBehaviour {
 
             // Weapon function
             (Unit unit, Unit other, Weapon weapon) => {
-                return Weapon_Default(unit, other, weapon);
+                return Weapon_Default(unit, other, weapon, EffectType.None);
             }));
 
         weapons.Add(new Weapon(new Item(
@@ -40,7 +46,7 @@ public class ItemDataBase : MonoBehaviour {
 
             // Weapon function
             (Unit unit, Unit other, Weapon weapon) => {
-                return Weapon_Default(unit, other, weapon);
+                return Weapon_Default(unit, other, weapon, EffectType.None);
             }));
 
         weapons.Add(new Weapon(new Item(
@@ -56,7 +62,7 @@ public class ItemDataBase : MonoBehaviour {
             
             // Weapon function
             (Unit unit, Unit other, Weapon weapon) => {
-                return Weapon_Default(unit, other, weapon);
+                return Weapon_Default(unit, other, weapon, EffectType.FireBall);
             }));
 
         weapons.Add(new Weapon(new Item(
@@ -72,7 +78,7 @@ public class ItemDataBase : MonoBehaviour {
 
             // Weapon function
             (Unit unit, Unit other, Weapon weapon) => {
-                return Weapon_Default(unit, other, weapon);
+                return Weapon_Default(unit, other, weapon, EffectType.Arrow);
             }));
 
 
@@ -89,7 +95,7 @@ public class ItemDataBase : MonoBehaviour {
 
             // Weapon function
             (Unit unit, Unit other, Weapon weapon) => {
-                return Weapon_Default(unit, other, weapon);
+                return Weapon_Default(unit, other, weapon, EffectType.None);
             }));
 
         weapons.Add(new Weapon(new Item(
@@ -105,7 +111,7 @@ public class ItemDataBase : MonoBehaviour {
 
             // Weapon function
             (Unit unit, Unit other, Weapon weapon) => {
-                return Weapon_Default(unit, other, weapon);
+                return Weapon_Default(unit, other, weapon, EffectType.FireBall);
             }));
 
         weapons.Add(new Weapon(new Item(
@@ -121,7 +127,7 @@ public class ItemDataBase : MonoBehaviour {
 
             // Weapon function
             (Unit unit, Unit other, Weapon weapon) => {
-                return Weapon_Default(unit, other, weapon);
+                return Weapon_Default(unit, other, weapon, EffectType.Arrow);
             }));
 
         // ################################################################## Abilities
@@ -139,13 +145,36 @@ public class ItemDataBase : MonoBehaviour {
 
             // Ability function
             (Unit unit, Unit other, Ability ability) => {
-                return Ability_Default(unit, other, ability);
+                return Ability_Default(unit, other, ability, EffectType.None);
             }));
 
 
     }
 
-    bool Weapon_Default(Unit unit, Unit other, Weapon weapon) {
+    void LoadEffect(EffectType effectType, Transform unit, Transform target) {
+        switch (effectType) {
+            case EffectType.None: break;
+            case EffectType.Arrow: {
+                    GameObject gm = Resources.Load(Helper.Resource.Arrow_effect_prefab) as GameObject;
+                    if (gm != null) {
+                        GameObject effect = Instantiate(gm, unit.position + unit.up, Quaternion.identity);
+                        effect.GetComponent<Target>().targetTransform = target;
+                    }
+                }
+                break;
+            case EffectType.FireBall: {
+                    GameObject gm = Resources.Load(Helper.Resource.Fireball_effect_prefab) as GameObject;
+                    if (gm != null) {
+                        GameObject effect = Instantiate(gm, unit.position + unit.up, Quaternion.identity);
+                        effect.GetComponent<Target>().targetTransform = target;
+                    }
+                }
+                break;
+        }
+
+    }
+
+    bool Weapon_Default(Unit unit, Unit other, Weapon weapon, EffectType effectType) {
         if (Vector3.Distance(unit.transform.position, other.transform.position) > weapon.range) {
             Debug.Log("Too far away!");
             return false;
@@ -158,6 +187,8 @@ public class ItemDataBase : MonoBehaviour {
 
             if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Unit")) {
                 Debug.DrawLine(unit.transform.position + unit.transform.up, other.transform.position + other.transform.up, Color.gray, 5);
+
+                LoadEffect(effectType, unit.transform, other.transform);
 
                 float r = Random.value;
 
@@ -172,25 +203,11 @@ public class ItemDataBase : MonoBehaviour {
                 other.health -= damage;
                 return true;
             }
-        } else {
-            Debug.DrawLine(unit.transform.position + unit.transform.up, other.transform.position + other.transform.up, Color.green, 5);
-
-            float damage = weapon.damage;
-            if (Random.value >= weapon.critChance / 100) {
-                damage *= weapon.critDamage;
-                Debug.Log("Crit!");
-            }
-
-            other.damageText.SetDamage(damage, Color.red);
-
-            other.health -= weapon.damage;
-
-            return true;
         }
         return false;
     }
 
-    bool Ability_Default(Unit unit, Unit other, Ability ability) {
+    bool Ability_Default(Unit unit, Unit other, Ability ability, EffectType effectType) {
         if (Vector3.Distance(unit.transform.position, other.transform.position) > ability.range) {
             Debug.Log("Too far away!");
             return false;
@@ -203,6 +220,8 @@ public class ItemDataBase : MonoBehaviour {
 
             if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Unit")) {
                 Debug.DrawLine(unit.transform.position + unit.transform.up, other.transform.position + other.transform.up, Color.gray, 5);
+
+                LoadEffect(effectType, unit.transform, other.transform);
 
                 float r = Random.value;
 
@@ -217,20 +236,6 @@ public class ItemDataBase : MonoBehaviour {
                 other.health -= damage;
                 return true;
             }
-        } else {
-            Debug.DrawLine(unit.transform.position + unit.transform.up, other.transform.position + other.transform.up, Color.green, 5);
-
-            float damage = ability.damage;
-            if (Random.value >= ability.critChance / 100) {
-                damage *= ability.critDamage;
-                Debug.Log("Crit!");
-            }
-
-            other.damageText.SetDamage(damage, Color.red);
-
-            other.health -= ability.damage;
-
-            return true;
         }
         return false;
     }
