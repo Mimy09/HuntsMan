@@ -1,4 +1,4 @@
-################################## 7/8/2018 9:52:49 PM
+################################## 7/9/2018 5:04:57 PM
 Init Console
 UnityEngine.Debug:Log(Object)
 Console:Start() (at Assets/Src/UI/console/Console.cs:51)

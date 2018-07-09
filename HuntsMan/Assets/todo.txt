@@ -1,22 +1,13 @@
  - Show attack ranges (Kinda Done) Maybe circle range ui
 
-(done) - user feedback when crit, show damage ect.
-
-(done) - Win / Lose
-
-(done) - Humans turn / Monster turn UI
-
-(done) - Full states of selected UI
-
  - set up pause and settings menus
+	- settings with key binding
 
  - set up title screen
 
  - fix cam moveing to fast 360 rotation
 	maybe no rotation after look at pos is too far away
 
- - fix grid to not use for loop
-	- run pathfinding on each tile and get distance
-	- square grid
-	- run on new thread
-	- not in grid tiles but using pre-generated positions on unit
+(done) - fix grid to not use for loop
+
+(done) - disolve effect of death

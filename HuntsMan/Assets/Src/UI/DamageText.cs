@@ -10,28 +10,34 @@ public class DamageText : MonoBehaviour {
     public float damage;
 
     private TextMesh text;
-    private Vector3 newPos;
-    private Vector3 oldPos;
+    private float newPos;
+    private float oldPos;
 
     private bool active;
 
     private void Start() {
         text = GetComponent<TextMesh>();
-        newPos = transform.position + (transform.up * distance);
-        oldPos = transform.position;
+        newPos = transform.position.y + distance;
+        oldPos = transform.position.y;
     }
 
     public void SetDamage(float damage, Color color) {
         active = true;
-        transform.position = oldPos;
+
+        Vector3 pos = transform.position;
+        pos.y = oldPos;
+        transform.position = pos;
+
         text.text = "-" + damage.ToString();
         text.color = color;
     }
 
     void Update () {
         if (active == false) return;
+        Vector3 pos = transform.position;
+        pos.y = Mathf.Lerp(pos.y, newPos, Time.deltaTime * speed);
+        transform.position = pos;
 
-        transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime * speed);
         Color c = text.color;
         c.a = Mathf.Lerp(c.a, -0.1f, Time.deltaTime * speed);
         if (c.a < 0) { c.a = 0; active = false; }

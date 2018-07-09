@@ -30,11 +30,14 @@ public class Unit : MonoBehaviour {
 
     public List<string> ability;
     public List<Ability> abilities = new List<Ability>();
-    
+
+    // Mesh Variables
+    protected MeshRenderer meshRenderer;
+    protected Material mat;
+
     // Movement Variables
     protected GameObject grid;
     protected NavMeshAgent navMeshAgent;
-    protected MeshFilter meshFilter;
     protected LineRenderer lineRenderer;
     protected NavMeshPath path;
     protected bool canMove = true;
@@ -43,7 +46,8 @@ public class Unit : MonoBehaviour {
     // Out-liner
     protected cakeslice.Outline graphicsOutLine;
 
-    
+    // Grid
+    GridGen.GridInfo gridInfo;
 
     // Team Variables
     private int teamID;
@@ -62,6 +66,14 @@ public class Unit : MonoBehaviour {
             damageText = this.transform.GetChild(1).gameObject.GetComponent<DamageText>();
         }
 
+        if (meshRenderer == null) {
+            meshRenderer = this.transform.GetChild(0).gameObject.GetComponent<MeshRenderer>();
+        }
+        if (mat == null) {
+            mat = meshRenderer.material;
+        }
+        
+
         maxActionPoionts = actionPoints;
 
         navMeshAgent = this.gameObject.AddComponent<NavMeshAgent>();
@@ -75,6 +87,18 @@ public class Unit : MonoBehaviour {
             lineRenderer.startColor = Color.cyan;
             lineRenderer.endColor = Color.cyan;
         }
+    }
+
+    public void SetDissolve(float amount) {
+        if (mat != null) {
+            mat.SetFloat("_DissolveAmount", amount);
+        }
+    }
+
+    public float GetDissolve() {
+        if (mat != null) {
+            return mat.GetFloat("_DissolveAmount");
+        } return -1;
     }
 
     public void SetTeam(int ID) {
@@ -117,8 +141,12 @@ public class Unit : MonoBehaviour {
         }
 
         if (isDead()) {
-            Manager.instance.RemoveFromTeam(gameObject, teamID);
-            Destroy(this.gameObject);
+            if (GetDissolve() < 1) {
+                SetDissolve(GetDissolve() + Time.deltaTime);
+            } else {
+                Manager.instance.RemoveFromTeam(gameObject, teamID);
+                Destroy(this.gameObject);
+            }
         }
     }
 
@@ -141,7 +169,11 @@ public class Unit : MonoBehaviour {
         canMove = false;
         Realign();
         ClearGrid();
-        grid = GenerateGrid.CreateGrid(actionPoints, this.transform.position);
+        //grid = GenerateGrid.CreateGrid(actionPoints, this.transform.position);
+        gridInfo = GridGen.GenPoints(actionPoints, actionPoints, this.transform.position, navMeshAgent);
+
+        if (gridInfo.gridPoints != null || gridInfo.gridPoints.Count > 0)
+            grid = GridGen.CreateGrid(gridInfo, this.transform.position, actionPoints);
     }
 
     public virtual void ClearGrid() {
