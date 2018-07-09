@@ -47,7 +47,7 @@ public class Unit : MonoBehaviour {
     protected cakeslice.Outline graphicsOutLine;
 
     // Grid
-    GridGen.GridInfo gridInfo;
+    protected GridGen.GridInfo gridInfo;
 
     // Team Variables
     private int teamID;

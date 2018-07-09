@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 80
-  actionPoints: 5
+  actionPoints: 7
   selected: 0
   targeted: 0
   weaponSelected: 0

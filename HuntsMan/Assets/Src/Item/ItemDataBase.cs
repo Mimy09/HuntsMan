@@ -31,8 +31,8 @@ public class ItemDataBase : MonoBehaviour {
             "Melee",                // Name
             "Default Melee Weapon", // Description
             weapons.Count,          // ID
-            2),                     // Action Points
-            20,                      // Damage
+            3),                     // Action Points
+            35,                      // Damage
             1.5f,                   // CritDamage
             10,                     // CritChance
             3,                      // Range
@@ -48,10 +48,10 @@ public class ItemDataBase : MonoBehaviour {
             "Default Magic Weapon", // Description
             weapons.Count,          // ID
             2),                     // Action Points
-            15,                     // Damage
+            25,                     // Damage
             2.0f,                   // CritDamage
             30,                     // CritChance
-            12,                     // Range
+            13,                     // Range
             Weapon.Item_Type.Magic, // Type
             
             // Weapon function
@@ -64,10 +64,10 @@ public class ItemDataBase : MonoBehaviour {
             "Default Ranged Weapon",// Description
             weapons.Count,          // ID
             2),                     // Action Points
-            10,                     // Damage
+            20,                     // Damage
             1.5f,                   // CritDamage
             20,                     // CritChance
-            15,                     // Range
+            17,                     // Range
             Weapon.Item_Type.Ranged,// Type
 
             // Weapon function
@@ -80,8 +80,8 @@ public class ItemDataBase : MonoBehaviour {
             "Melee_Human",          // Name
             "Default Melee Weapon", // Description
             weapons.Count,          // ID
-            2),                     // Action Points
-            15,                     // Damage
+            3),                     // Action Points
+            20,                     // Damage
             1.5f,                   // CritDamage
             10,                     // CritChance
             3,                      // Range
@@ -97,10 +97,10 @@ public class ItemDataBase : MonoBehaviour {
             "Default Magic Weapon", // Description
             weapons.Count,          // ID
             2),                     // Action Points
-            10,                     // Damage
+            20,                     // Damage
             2.0f,                   // CritDamage
             20,                     // CritChance
-            10,                     // Range
+            13,                     // Range
             Weapon.Item_Type.Magic, // Type
 
             // Weapon function
@@ -113,10 +113,10 @@ public class ItemDataBase : MonoBehaviour {
             "Default Ranged Weapon",// Description
             weapons.Count,          // ID
             2),                     // Action Points
-            8,                     // Damage
+            15,                     // Damage
             1.5f,                   // CritDamage
             15,                     // CritChance
-            15,                     // Range
+            17,                     // Range
             Weapon.Item_Type.Ranged,// Type
 
             // Weapon function

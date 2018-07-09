@@ -38,7 +38,12 @@ public class Character : Unit {
         if (navMeshAgent.destination == this.transform.position) {
             if (selected && createGrid == true) {
                 ClearGrid();
-                grid = GenerateGrid.CreateGrid(actionPoints, this.transform.position);
+
+                gridInfo = GridGen.GenPoints(actionPoints, actionPoints, this.transform.position, navMeshAgent);
+
+                if (gridInfo.gridPoints != null || gridInfo.gridPoints.Count > 0)
+                    grid = GridGen.CreateGrid(gridInfo, this.transform.position, actionPoints);
+
                 createGrid = false;
             }
             path = null;
