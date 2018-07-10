@@ -1,7 +1,39 @@
-################################## 7/9/2018 5:07:59 PM
+################################## 7/10/2018 4:08:25 PM
 Init Console
 UnityEngine.Debug:Log(Object)
 Console:Start() (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/UI/console/Console.cs:51)
+
+Crit!
+UnityEngine.Debug:Log(Object)
+ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs:197)
+ItemDataBase:<Awake>m__2(Unit, Unit, Weapon) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs:65)
+Weapon:UseWeapon(Unit, Unit) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/Item.cs:73)
+Unit:Attack(Unit) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Unit/Unit.cs:190)
+Manager:LateUpdate() (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Manager.cs:320)
+
+Crit!
+UnityEngine.Debug:Log(Object)
+ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs:197)
+ItemDataBase:<Awake>m__2(Unit, Unit, Weapon) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs:65)
+Weapon:UseWeapon(Unit, Unit) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/Item.cs:73)
+Unit:Attack(Unit) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Unit/Unit.cs:190)
+Manager:LateUpdate() (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Manager.cs:320)
+
+Crit!
+UnityEngine.Debug:Log(Object)
+ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs:197)
+ItemDataBase:<Awake>m__2(Unit, Unit, Weapon) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs:65)
+Weapon:UseWeapon(Unit, Unit) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/Item.cs:73)
+Unit:Attack(Unit) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Unit/Unit.cs:190)
+Manager:LateUpdate() (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Manager.cs:320)
+
+Crit!
+UnityEngine.Debug:Log(Object)
+ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs:197)
+ItemDataBase:<Awake>m__1(Unit, Unit, Weapon) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs:49)
+Weapon:UseWeapon(Unit, Unit) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/Item.cs:73)
+Unit:Attack(Unit) (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Unit/Unit.cs:190)
+Manager:LateUpdate() (at D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Manager.cs:320)
 
 
 
