@@ -1,10 +1,17 @@
 <h2>Builds</h2>
 
+* [Download build (v0.5-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.5-prototype "HuntsMan")
 * [Download build (v0.4a-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.4a-prototype "HuntsMan")
 * [Download build (v0.4-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.4-prototype "HuntsMan")
 * [Download build (v0.3-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.3-prototype "HuntsMan")
 * [Download build (v0.2a-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2a-prototype "HuntsMan")
 * [Download build (v0.2-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2-prototype "HuntsMan")
+
+<h2>Added (v0.4-prototype)</h2>
+
+* Added animations
+* Added models
+* Added effect on attack of Mage and Ranger
 
 <h2>Added (v0.4-prototype)</h2>
 
