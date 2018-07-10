@@ -9,7 +9,20 @@ public class Unit : MonoBehaviour {
     public float health;
     public int actionPoints;
     private int maxActionPoionts;
-    
+
+    // Graphics Objects
+    public List<GameObject> graphics = new List<GameObject>();
+
+    // Out-liner
+    public cakeslice.Outline graphicsOutLine;
+
+    // Text
+    public DamageText damageText;
+
+    // Animator
+    public Animator animator;
+
+
     // Selected Variables
     [HideInInspector]
     public bool selected;
@@ -20,10 +33,7 @@ public class Unit : MonoBehaviour {
     [HideInInspector]
     public int abilitySelected;
 
-    // Text
-    [HideInInspector]
-    public DamageText damageText;
-
+    
     // Weapon Variables
     public string weapon;
     public Weapon equiptedWeapon;
@@ -33,7 +43,8 @@ public class Unit : MonoBehaviour {
 
     // Mesh Variables
     protected MeshRenderer meshRenderer;
-    protected Material mat;
+    protected List<Material> mat = new List<Material>();
+    public Renderer Renderer { get; private set; }
 
     // Movement Variables
     protected GameObject grid;
@@ -43,8 +54,7 @@ public class Unit : MonoBehaviour {
     protected bool canMove = true;
     protected bool createGrid = false;
 
-    // Out-liner
-    protected cakeslice.Outline graphicsOutLine;
+    
 
     // Grid
     protected GridGen.GridInfo gridInfo;
@@ -57,22 +67,13 @@ public class Unit : MonoBehaviour {
         canMove = true;
         createGrid = false;
 
-        if (graphicsOutLine == null) {
-            graphicsOutLine = this.transform.GetChild(0).gameObject.GetComponent<cakeslice.Outline>();
+        if (graphicsOutLine != null) {
             graphicsOutLine.eraseRenderer = true;
         }
 
-        if (damageText == null) {
-            damageText = this.transform.GetChild(1).gameObject.GetComponent<DamageText>();
+        for (int i = 0; i < graphics.Count; i++) {
+            mat.Add(graphics[i].GetComponent<Renderer>().material);
         }
-
-        if (meshRenderer == null) {
-            meshRenderer = this.transform.GetChild(0).gameObject.GetComponent<MeshRenderer>();
-        }
-        if (mat == null) {
-            mat = meshRenderer.material;
-        }
-        
 
         maxActionPoionts = actionPoints;
 
@@ -90,15 +91,17 @@ public class Unit : MonoBehaviour {
     }
 
     public void SetDissolve(float amount) {
-        if (mat != null) {
-            mat.SetFloat("_DissolveAmount", amount);
+        if (mat.Count > 0) {
+            for (int i = 0; i < mat.Count; i++) {
+                mat[i].SetFloat("_DissolveAmount", amount);
+            }
         }
     }
 
     public float GetDissolve() {
-        if (mat != null) {
-            return mat.GetFloat("_DissolveAmount");
-        } return -1;
+        if (mat.Count > 0) {
+            return mat[0].GetFloat("_DissolveAmount");
+        } return 0;
     }
 
     public void SetTeam(int ID) {
@@ -109,7 +112,7 @@ public class Unit : MonoBehaviour {
         isTeamTurn = Manager.instance.IsTeamTurn(teamID);
 
         if (targeted) {
-            graphicsOutLine.color = 3;
+            graphicsOutLine.color = 2;
             graphicsOutLine.eraseRenderer = false;
         } else if (selected) {
             if (teamID == 1) {
@@ -141,6 +144,8 @@ public class Unit : MonoBehaviour {
         }
 
         if (isDead()) {
+            animator.SetBool("Dead", true);
+
             if (GetDissolve() < 1) {
                 SetDissolve(GetDissolve() + Time.deltaTime);
             } else {

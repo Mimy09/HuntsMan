@@ -26,6 +26,8 @@ public class Character : Unit {
         navMeshAgent.updatePosition = true;
         navMeshAgent.updateRotation = true;
 
+        animator.SetBool("Moving", true);
+
         navMeshAgent.SetDestination(position);
         yield return new WaitUntil(() => navMeshAgent.path != null);
 
@@ -51,6 +53,8 @@ public class Character : Unit {
             lineRenderer.positionCount = 0;
             canMove = true;
             Realign();
+
+            animator.SetBool("Moving", false);
         }
 
         if (path == null) return;

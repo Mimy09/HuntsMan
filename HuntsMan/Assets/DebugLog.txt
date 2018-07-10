@@ -1,7 +1,15 @@
-################################## 7/9/2018 10:59:32 PM
+################################## 7/10/2018 4:03:30 PM
 Init Console
 UnityEngine.Debug:Log(Object)
 Console:Start() (at Assets/Src/UI/console/Console.cs:51)
+
+Crit!
+UnityEngine.Debug:Log(Object)
+ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at Assets/Src/Item/ItemDataBase.cs:198)
+ItemDataBase:<Awake>m__2(Unit, Unit, Weapon) (at Assets/Src/Item/ItemDataBase.cs:65)
+Weapon:UseWeapon(Unit, Unit) (at Assets/Src/Item/Item.cs:73)
+Unit:Attack(Unit) (at Assets/Src/Unit/Unit.cs:190)
+Manager:LateUpdate() (at Assets/Src/Manager.cs:320)
 
 
 
