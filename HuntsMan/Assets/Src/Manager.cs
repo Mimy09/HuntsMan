@@ -8,8 +8,8 @@ public class Manager : MonoBehaviour {
     public static Manager instance;
     public static PlayerCamera playerCamera;
 
-    List<GameObject> team1 = new List<GameObject>();
-    List<GameObject> team2 = new List<GameObject>();
+    public List<GameObject> team1 = new List<GameObject>();
+    public List<GameObject> team2 = new List<GameObject>();
 
     Unit selected;
     public List<Unit> targeted;
@@ -17,6 +17,8 @@ public class Manager : MonoBehaviour {
 
     private bool canSelect;
     private bool gameStart;
+
+    GameObject circle;
 
     void Awake () {
         // Set instance
@@ -42,6 +44,17 @@ public class Manager : MonoBehaviour {
 
 
         targeted = null;
+    }
+
+    public List<GameObject> GetTeam(int team) {
+        switch (team) {
+            case 1:
+                return team1;
+            case 2:
+                return team2;
+            default:
+                return new List<GameObject>();
+        }
     }
 
     public int GetWinStat() {
@@ -130,7 +143,7 @@ public class Manager : MonoBehaviour {
 
     public void ClearTargeted() {
         if (targeted == null) return;
-
+        
         // Clear Target
         for (int i = 0; i < targeted.Count; i++) {
             targeted[i].targeted = false;
@@ -142,28 +155,46 @@ public class Manager : MonoBehaviour {
         targeted = null;
     }
 
+    public void ClearSelectedItems() {
+        if (selected == null) return;
+        selected.weaponSelected = false;
+        selected.abilitySelected = -1;
+    }
+
     public void UseAbility(int ID) {
         // Select Attacks
         if (selected != null) {
+            if (selected.abilities.Count > 0) {
+                if (selected.abilityCooldown[ID] < selected.abilities[ID].cooldown) return;
+                // Ability Attack
+                selected.weaponSelected = false;
+                selected.abilitySelected = ID;
 
-            // Ability Attack
-            selected.weaponSelected = false;
-            selected.abilitySelected = ID;
+                GetAllUnitsWithinRange(selected.abilities[ID].range);
 
-            GetAllUnitsWithinRange(selected.abilities[ID].range);
+                circle = Circle.GenCercle(selected.transform.position, selected.abilities[ID].range);
+            }
         }
     }
 
     public void UseWeapon() {
         // Select Attacks
         if (selected != null) {
+            if (selected.equiptedWeapon != null) {
 
-            // Weapon Attack
-            selected.abilitySelected = -1;
-            selected.weaponSelected = true;
+                // Weapon Attack
+                selected.abilitySelected = -1;
+                selected.weaponSelected = true;
 
-            GetAllUnitsWithinRange(selected.equiptedWeapon.range);
+                GetAllUnitsWithinRange(selected.equiptedWeapon.range);
+
+                circle = Circle.GenCercle(selected.transform.position, selected.equiptedWeapon.range);
+            }
         }
+    }
+
+    public void DestroyCircle() {
+        Destroy(circle);
     }
 
     public void EndTurn() {

@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 
 public class Character : Unit {
@@ -70,17 +69,13 @@ public class Character : Unit {
     public override void Start() {
         base.Start();
 
-        if (weapon != "")
-            equiptedWeapon = ItemDataBase.FindWeapon(weapon);
-        else
-            equiptedWeapon = ItemDataBase.FindWeapon("Weapon_test_1");
+        if (weapon != "") equiptedWeapon = ItemDataBase.FindWeapon(weapon);
 
         if (ability.Count != 0) {
             for (int i = 0; i < ability.Count; i++) {
                 abilities.Add(ItemDataBase.FindAbility(ability[i]));
+                abilityCooldown.Add(abilities[abilities.Count - 1].cooldown);
             }
-        } else {
-            abilities.Add(ItemDataBase.FindAbility("Ability_test_1"));
         }
     }
 

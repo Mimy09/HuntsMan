@@ -58,14 +58,15 @@ public class PlayerCamera : MonoBehaviour {
         LookAtPos = new Vector3(pos.x, 0, pos.z);
     }
 
-    void Update() {
+    void LateUpdate() {
         // Look at pivot
         transform.LookAt(LookAt);
 
         // move to pivot position
         this.LookAt.position = Vector3.Lerp(this.LookAt.position, LookAtPos, Time.deltaTime * followSpeed);
 
-        
+        // Move Cam
+        //this.transform.position = Vector3.Lerp(this.transform.position, Pivot.position, Time.deltaTime * followSpeed);
 
         // Drag rotation around function
         if (Input.GetAxis("Mouse X") > 0.001f || Input.GetAxis("Mouse X") < -0.001f || Input.GetAxis("Mouse Y") > 0.001f || Input.GetAxis("Mouse Y") < -0.001f) {
@@ -76,8 +77,6 @@ public class PlayerCamera : MonoBehaviour {
                 m_rotationY = Mathf.Clamp(m_rotationY, minimumAngle, maximumAngle);
 
                 LookAt.localEulerAngles = new Vector3(-m_rotationY, LookAt.localEulerAngles.y, 0);
-
-                this.transform.position = Vector3.Lerp(this.transform.position, Pivot.position, Time.deltaTime * followSpeed);
 
                 isDarging = true;
             } else {

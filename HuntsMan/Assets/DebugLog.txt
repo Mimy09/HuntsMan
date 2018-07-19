@@ -1,15 +1,2344 @@
-################################## 7/10/2018 4:03:30 PM
+################################## 7/19/2018 3:59:25 PM
 Init Console
 UnityEngine.Debug:Log(Object)
 Console:Start() (at Assets/Src/UI/console/Console.cs:51)
 
-Crit!
-UnityEngine.Debug:Log(Object)
-ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at Assets/Src/Item/ItemDataBase.cs:198)
-ItemDataBase:<Awake>m__2(Unit, Unit, Weapon) (at Assets/Src/Item/ItemDataBase.cs:65)
-Weapon:UseWeapon(Unit, Unit) (at Assets/Src/Item/Item.cs:73)
-Unit:Attack(Unit) (at Assets/Src/Unit/Unit.cs:190)
-Manager:LateUpdate() (at Assets/Src/Manager.cs:320)
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+String too long for TextMeshGenerator. Cutting off characters.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentException: Mesh can not have more than 65000 vertices
+UnityEngine.UI.VertexHelper.FillMesh (UnityEngine.Mesh mesh) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Utility/VertexHelper.cs:88)
+UnityEngine.UI.Graphic.DoMeshGeneration () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:392)
+UnityEngine.UI.Graphic.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:374)
+UnityEngine.UI.Text.UpdateGeometry () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Text.cs:378)
+UnityEngine.UI.Graphic.Rebuild (CanvasUpdate update) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Graphic.cs:335)
+UnityEngine.UI.CanvasUpdateRegistry.PerformUpdate () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/CanvasUpdateRegistry.cs:150)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+System.Collections.Generic.List`1[Ability].get_Item (Int32 index) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:633)
+Character.OnDrawGizmosSelected () (at Assets/Src/Unit/Character/Character.cs:90)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
 
 
 

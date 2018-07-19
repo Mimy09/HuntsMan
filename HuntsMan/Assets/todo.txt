@@ -1,4 +1,4 @@
- - Show attack ranges (Kinda Done) Maybe circle range ui
+(done) - Show attack ranges (Kinda Done) Maybe circle range ui
 
  - set up pause and settings menus
 	- settings with key binding
@@ -8,4 +8,12 @@
  - fix cam moveing to fast 360 rotation
 	maybe no rotation after look at pos is too far away
 
-(done) - add effect when using attacks
+(done) - ability cooldown
+
+(done) - Mage ability (AOE on character)
+
+ - Ranger ability (Teleport to location)
+
+ - Melee ability (Stare, stop attack of enemy for next turn)
+
+(done) - add monsters

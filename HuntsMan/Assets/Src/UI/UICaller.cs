@@ -18,18 +18,23 @@ public class UICaller : MonoBehaviour {
 
     public void UseAbility(int ID) {
         isChecking = false;
+        Manager.instance.DestroyCircle();
         Manager.instance.UseAbility(ID);
     }
 
     public void UseWeapon() {
         isChecking = false;
+        Manager.instance.DestroyCircle();
         Manager.instance.UseWeapon();
     }
 
     public void ClearTargeted() {
-        if (isChecking == false) return;
-        Manager.instance.ClearTargeted();
+        Manager.instance.DestroyCircle();
 
-        isChecking = false;
+        if (isChecking == true) {
+            Manager.instance.ClearTargeted();
+            Manager.instance.ClearSelectedItems();
+            isChecking = false;
+        }
     }
 }

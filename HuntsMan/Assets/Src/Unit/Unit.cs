@@ -9,7 +9,7 @@ public class Unit : MonoBehaviour {
     public float health;
     public int actionPoints;
     private int maxActionPoionts;
-
+    
     // Graphics Objects
     public List<GameObject> graphics = new List<GameObject>();
 
@@ -30,8 +30,8 @@ public class Unit : MonoBehaviour {
     public bool targeted;
     [HideInInspector]
     public bool weaponSelected;
-    [HideInInspector]
-    public int abilitySelected;
+    //[HideInInspector]
+    public int abilitySelected = -1;
 
     
     // Weapon Variables
@@ -39,6 +39,7 @@ public class Unit : MonoBehaviour {
     public Weapon equiptedWeapon;
 
     public List<string> ability;
+    public List<int> abilityCooldown = new List<int>();
     public List<Ability> abilities = new List<Ability>();
 
     // Mesh Variables
@@ -54,7 +55,8 @@ public class Unit : MonoBehaviour {
     protected bool canMove = true;
     protected bool createGrid = false;
 
-    
+    // Circle
+    GameObject circle;
 
     // Grid
     protected GridGen.GridInfo gridInfo;
@@ -66,6 +68,8 @@ public class Unit : MonoBehaviour {
     public virtual void Start() {
         canMove = true;
         createGrid = false;
+        abilitySelected = -1;
+        weaponSelected = false;
 
         if (graphicsOutLine != null) {
             graphicsOutLine.eraseRenderer = true;
@@ -111,6 +115,12 @@ public class Unit : MonoBehaviour {
     public virtual void Update() {
         isTeamTurn = Manager.instance.IsTeamTurn(teamID);
 
+        if (abilitySelected != -1) {
+            if (abilityCooldown[abilitySelected] < abilities[abilitySelected].cooldown) {
+                abilitySelected = -1;
+            }
+        }
+
         if (targeted) {
             graphicsOutLine.color = 2;
             graphicsOutLine.eraseRenderer = false;
@@ -143,11 +153,27 @@ public class Unit : MonoBehaviour {
             }
         }
 
+        if (selected == true) {
+            switch (abilitySelected) {
+                case 0:
+                    Unit g = Camera.main.GetComponent<PlayerCamera>().SelectCharacter();
+                    if (g != null) {
+                        if (circle == null) circle = Circle.GenCercle(g.transform.position, 13);
+                    } else {
+                        if (circle != null) Destroy(circle);
+                    }
+                    break;
+                default:
+                    if (circle != null) Destroy(circle);
+                    break;
+            }
+        }
+
         if (isDead()) {
             animator.SetBool("Dead", true);
 
-            if (GetDissolve() < 1) {
-                SetDissolve(GetDissolve() + Time.deltaTime);
+            if (GetDissolve() < 2) {
+                SetDissolve(GetDissolve() + (Time.deltaTime/4));
             } else {
                 Manager.instance.RemoveFromTeam(gameObject, teamID);
                 Destroy(this.gameObject);
@@ -167,6 +193,9 @@ public class Unit : MonoBehaviour {
 
     public void ResetActionPoints() {
         actionPoints = maxActionPoionts;
+        for (int i = 0; i < abilityCooldown.Count; i++) {
+            abilityCooldown[i]++;
+        }
     }
 
     public virtual void CreateGrid() {
@@ -195,11 +224,11 @@ public class Unit : MonoBehaviour {
     }
 
     public virtual void UseAbility(int abilityID, Unit other) {
-        if (abilities[abilityID].actionPoints > actionPoints) return;
+        if (abilityCooldown[abilityID] < abilities[abilityID].cooldown) return;
         if (abilities[abilityID].UseAbility(this, other)) {
-            actionPoints -= abilities[abilityID].actionPoints;
             ClearGrid();
             CreateGrid();
+            abilityCooldown[abilityID] = 0;
         }
     }
 
@@ -223,13 +252,17 @@ public class Unit : MonoBehaviour {
 
     public string GetWeaponStats() {
         string msg = "";
-        msg += "Weapon: \n" + equiptedWeapon.GetStats() + "\n";
+        if (equiptedWeapon != null)
+            msg += "Weapon: \n" + equiptedWeapon.GetStats() + "\n";
         return msg;
     }
 
     public string GetAbilityStats() {
         string msg = "";
-        msg += "Ability: \n" + abilities[0].GetStats() + "\n";
+        if (abilities.Count > 0) {
+            msg += "Ability: \n" + abilities[0].GetStats() + "\n";
+            msg += "Cool Down: " + abilityCooldown[0] + "\n";
+        }
         return msg;
     }
 }

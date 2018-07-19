@@ -92,13 +92,14 @@ public class Ability : Item {
     public float critDamage;
     public float critChance;
     public float range;
+    public int cooldown;
 
     public enum Ability_Type {
         SingleTarget,
         OverTime,
         AOE,
     } public Ability_Type abilityType;
-    public Ability(Item item, float damage, float critDamage, float critChance, float range, Ability_Type type, Func<Unit, Unit, Ability, bool> callback) {
+    public Ability(Item item, float damage, float critDamage, float critChance, float range, int cooldown, Ability_Type type, Func<Unit, Unit, Ability, bool> callback) {
         this.name = item.name;
         this.description = item.description;
         this.ID = item.ID;
@@ -111,6 +112,7 @@ public class Ability : Item {
         this.critDamage = critDamage;
         this.abilityType = type;
         this.range = range;
+        this.cooldown = cooldown;
 
         this.callback = callback;
     }

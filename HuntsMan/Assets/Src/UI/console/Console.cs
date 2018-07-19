@@ -40,7 +40,12 @@ public class Console : MonoBehaviour {
             }
         }
 
-        text = text + logString + "\n" + stackTrace + "\n";
+        if (message.Length < 6000) {
+            text = text + logString + "\n" + stackTrace + "\n";
+        } else {
+            message = "";
+        }
+
     }
 
     private void Start() {

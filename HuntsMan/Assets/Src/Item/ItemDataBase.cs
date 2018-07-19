@@ -11,7 +11,8 @@ public class ItemDataBase : MonoBehaviour {
     public enum EffectType {
         None,
         FireBall,
-        Arrow
+        Arrow,
+        IceBall
     }
 
     private void Awake() {
@@ -136,18 +137,35 @@ public class ItemDataBase : MonoBehaviour {
             "Ability_test_1",       // Name
             "",                     // Description
             abilities.Count,        // ID
-            5),                     // Action Points
-            20,                     // Damage
-            2,                      // CritDamage
-            20,                     // CritChance
-            20,                     // Range
+            -1),                    // Action Points
+            0,                      // Damage
+            0,                      // CritDamage
+            0,                      // CritChance
+            0,                      // Range
+            0,                      // CoolDown
             Ability.Ability_Type.SingleTarget, // Type
 
             // Ability function
             (Unit unit, Unit other, Ability ability) => {
-                return Ability_Default(unit, other, ability, EffectType.None);
+                return true;
             }));
 
+        abilities.Add(new Ability(new Item(
+            "Ability_AOE",          // Name
+            "",                     // Description
+            abilities.Count,        // ID
+            -1),                    // Action Points
+            20,                     // Damage
+            2,                      // CritDamage
+            20,                     // CritChance
+            20,                     // Range
+            3,                      // CoolDown
+            Ability.Ability_Type.AOE,   // Type
+
+            // Ability function
+            (Unit unit, Unit other, Ability ability) => {
+                return Ability_AOE(unit, other, ability, EffectType.IceBall, 13);
+            }));
 
     }
 
@@ -164,6 +182,14 @@ public class ItemDataBase : MonoBehaviour {
                 break;
             case EffectType.FireBall: {
                     GameObject gm = Resources.Load(Helper.Resource.Fireball_effect_prefab) as GameObject;
+                    if (gm != null) {
+                        GameObject effect = Instantiate(gm, unit.position + unit.up, Quaternion.identity);
+                        effect.GetComponent<Target>().targetTransform = target;
+                    }
+                }
+                break;
+            case EffectType.IceBall: {
+                    GameObject gm = Resources.Load(Helper.Resource.Iceball_effect_prefab) as GameObject;
                     if (gm != null) {
                         GameObject effect = Instantiate(gm, unit.position + unit.up, Quaternion.identity);
                         effect.GetComponent<Target>().targetTransform = target;
@@ -207,7 +233,7 @@ public class ItemDataBase : MonoBehaviour {
         return false;
     }
 
-    bool Ability_Default(Unit unit, Unit other, Ability ability, EffectType effectType) {
+    bool Ability_AOE(Unit unit, Unit other, Ability ability, EffectType effectType, float AOE_Range) {
         if (Vector3.Distance(unit.transform.position, other.transform.position) > ability.range) {
             Debug.Log("Too far away!");
             return false;
@@ -223,23 +249,42 @@ public class ItemDataBase : MonoBehaviour {
 
                 LoadEffect(effectType, unit.transform, other.transform);
 
-                float r = Random.value;
+                List<GameObject> UnitsInAOE = new List<GameObject>();
 
-                float damage = ability.damage;
-                if (r <= ability.critChance / 100) {
-                    damage *= ability.critDamage;
-                    Debug.Log("Crit!");
+                // Add team one to AOE damage area
+                List<GameObject> Teams = Manager.instance.GetTeam(1);
+                for (int i = 0; i < Teams.Count; i++) {
+                    if (Vector3.Distance(other.transform.position, Teams[i].transform.position) < AOE_Range) {
+                        UnitsInAOE.Add(Teams[i]);
+                    }
+                }
+                // Add team two to AOE damage area
+                Teams = Manager.instance.GetTeam(2);
+                for (int i = 0; i < Teams.Count; i++) {
+                    if (Vector3.Distance(other.transform.position, Teams[i].transform.position) < AOE_Range) {
+                        UnitsInAOE.Add(Teams[i]);
+                    }
                 }
 
-                other.damageText.SetDamage(damage, Color.red);
+                // Damage all units in AOE range
+                for (int i = 0; i < UnitsInAOE.Count; i++) {
+                    float r = Random.value;
 
-                other.health -= damage;
+                    float damage = ability.damage;
+                    if (r <= ability.critChance / 100) {
+                        damage *= ability.critDamage;
+                    }
+
+                    UnitsInAOE[i].GetComponent<Unit>().damageText.SetDamage(damage, Color.red);
+                    UnitsInAOE[i].GetComponent<Unit>().health -= damage;
+                }
                 return true;
             }
         }
         return false;
     }
 
+    
     bool Weapon_Default(Unit unit, Unit other, Ability ability) {
         return false;
     }
