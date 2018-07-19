@@ -1,10 +1,10 @@
 Mono path[0] = 'D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/Managed'
 Mono config path = 'D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/Mono/etc'
 PlayerConnection initialized from D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55084
-Multi-casting "[IP] 192.168.0.7 [Port] 55084 [Flags] 2 [Guid] 2636063007 [EditorId] 2490862411 [Version] 1048832 [Id] WindowsPlayer(Game-PC) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55084]
-PlayerConnection already initialized - listening to [0.0.0.0:55084]
+PlayerConnection initialized network socket : 0.0.0.0 55429
+Multi-casting "[IP] 192.168.0.8 [Port] 55429 [Flags] 2 [Guid] 3530843830 [EditorId] 2362123361 [Version] 1048832 [Id] WindowsPlayer(Game-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55429]
+PlayerConnection already initialized - listening to [0.0.0.0:55429]
 Player data archive not found at `D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
@@ -27,76 +27,15 @@ Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Dat
 Loading D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\System.dll (this message is harmless)
 Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.024 seconds
+- Completed reload, in  0.023 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.069119 ms
-Init Console
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Console:Start() (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\UI\console\Console.cs:51)
- 
-(Filename: D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/UI/console/Console.cs Line: 51)
-
+UnloadTime: 1.039677 ms
 Setting up 6 worker threads for Enlighten.
-  Thread -> id: 4e08 -> priority: 1 
-  Thread -> id: 2f00 -> priority: 1 
-  Thread -> id: 2e74 -> priority: 1 
-  Thread -> id: 25c8 -> priority: 1 
-  Thread -> id: 23b4 -> priority: 1 
-  Thread -> id: 31a4 -> priority: 1 
-Crit!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\ItemDataBase.cs:197)
-ItemDataBase:<Awake>m__2(Unit, Unit, Weapon) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\ItemDataBase.cs:65)
-Weapon:UseWeapon(Unit, Unit) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\Item.cs:73)
-Unit:Attack(Unit) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Unit\Unit.cs:190)
-Manager:LateUpdate() (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Manager.cs:320)
- 
-(Filename: D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs Line: 197)
-
-Crit!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\ItemDataBase.cs:197)
-ItemDataBase:<Awake>m__2(Unit, Unit, Weapon) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\ItemDataBase.cs:65)
-Weapon:UseWeapon(Unit, Unit) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\Item.cs:73)
-Unit:Attack(Unit) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Unit\Unit.cs:190)
-Manager:LateUpdate() (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Manager.cs:320)
- 
-(Filename: D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs Line: 197)
-
-Crit!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\ItemDataBase.cs:197)
-ItemDataBase:<Awake>m__2(Unit, Unit, Weapon) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\ItemDataBase.cs:65)
-Weapon:UseWeapon(Unit, Unit) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\Item.cs:73)
-Unit:Attack(Unit) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Unit\Unit.cs:190)
-Manager:LateUpdate() (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Manager.cs:320)
- 
-(Filename: D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs Line: 197)
-
-Crit!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ItemDataBase:Weapon_Default(Unit, Unit, Weapon, EffectType) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\ItemDataBase.cs:197)
-ItemDataBase:<Awake>m__1(Unit, Unit, Weapon) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\ItemDataBase.cs:49)
-Weapon:UseWeapon(Unit, Unit) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Item\Item.cs:73)
-Unit:Attack(Unit) (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Unit\Unit.cs:190)
-Manager:LateUpdate() (at D:\ProgramFiles\Programming\_GIT\HuntsMan\HuntsMan\Assets\Src\Manager.cs:320)
- 
-(Filename: D:/ProgramFiles/Programming/_GIT/HuntsMan/HuntsMan/Assets/Src/Item/ItemDataBase.cs Line: 197)
-
+  Thread -> id: 28b8 -> priority: 1 
+  Thread -> id: 2dfc -> priority: 1 
+  Thread -> id: 12d4 -> priority: 1 
+  Thread -> id: 5424 -> priority: 1 
+  Thread -> id: 3570 -> priority: 1 
+  Thread -> id: 279c -> priority: 1 
