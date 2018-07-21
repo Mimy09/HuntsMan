@@ -172,7 +172,7 @@ public class Unit : MonoBehaviour {
         if (isDead()) {
             animator.SetBool("Dead", true);
 
-            if (GetDissolve() < 2) {
+            if (GetDissolve() < 1) {
                 SetDissolve(GetDissolve() + (Time.deltaTime/4));
             } else {
                 Manager.instance.RemoveFromTeam(gameObject, teamID);

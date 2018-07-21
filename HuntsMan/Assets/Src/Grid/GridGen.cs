@@ -49,6 +49,8 @@ public class GridGen : MonoBehaviour {
                     for (int i = 0; i < path.corners.Length - 1; i++)
                         Debug.DrawLine(path.corners[i], path.corners[i + 1], Color.green, 2);
 
+                    if (path.corners.Length <= 0) continue;
+
                     info.gridPoints[info.gridPoints.Count - 1].Add(pos);
                     info.gridIDs[info.gridIDs.Count - 1].Add(Mathf.FloorToInt(pathDistance / scail));
                 }

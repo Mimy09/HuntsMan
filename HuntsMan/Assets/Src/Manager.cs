@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 
@@ -263,6 +264,8 @@ public class Manager : MonoBehaviour {
     }
 
     private void LateUpdate() {
+        InputCommand();
+
         if (gameStart == false) {
             gameStart = true;
             LookAtTeam();
@@ -403,8 +406,115 @@ public class Manager : MonoBehaviour {
                 }
             }
         }
+    }
 
 
-        
+    void InputCommand() {
+        if (Input.GetKeyDown(KeyCode.BackQuote)) {
+            RunCommands();
+        }
+    }
+
+    void RunCommands() {
+        if (UnityEngine.Console.UnityConsole.Instance == null) return;
+
+        // Get the command and its arguments from the console
+        string[] msg = UnityEngine.Console.UnityConsole.Instance.ScanConsole().Split(':');
+
+        switch (msg[0]) {
+            case "Help":
+            case "help":
+                print(
+                    "\nDone" +
+                    "\nQuit" +
+                    "\nClose" +
+                    "\nReset" +
+                    "\nPrint" +
+                    "\nKill" +
+                    "\nKillTeam:[TEAMID]" +
+                    "\nEditUnit" +
+                    "\nEditWeapon" +
+                    "\nEditAbility"
+                    );
+                break;
+            case "Done":
+            case "done":
+                return;
+            case "Quit":
+            case "quit":
+                Application.Quit();
+                break;
+            case "Close":
+            case "close":
+                UnityEngine.Console.console_api.ConsoleAPI.CloseConsole();
+                break;
+            case "Reset":
+            case "reset":
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                break;
+            case "Print":
+            case "print":
+                if (selected == null) break;
+                print(selected.GetStats());
+                print(selected.GetWeaponStats());
+                print(selected.GetAbilityStats());
+                break;
+            case "Kill":
+            case "kill":
+                if (selected == null) break;
+                selected.health = 0;
+                break;
+            case "KillTeam":
+            case "killTeam":
+                if (msg.Length != 2) {
+                    print("[COMMAND FAILED] - KillTeam:[TEAMID]\n");
+                    break;
+                }
+                switch (msg[1]) {
+                    case "1":
+                        for (int i = 0; i < team1.Count; i++)
+                            team1[i].GetComponent<Unit>().health = 0;
+                        break;
+                    case "2":
+                        for (int i = 0; i < team2.Count; i++)
+                            team2[i].GetComponent<Unit>().health = 0;
+                        break;
+                }
+                break;
+            case "EditUnit":
+            case "editUnit":
+                if (selected == null) break;
+                if (msg.Length != 3) {
+                    print("[COMMAND FAILED] - EditUnit:[HEALTH]:[AP]\n");
+                    break;
+                }
+                selected.health          = int.Parse(msg[1]);
+                selected.actionPoints    = int.Parse(msg[2]);
+                break;
+            case "EditWeapon":
+            case "editWeapon":
+                if (selected == null) break;
+                if (msg.Length != 4) {
+                    print("[COMMAND FAILED] - EditWeapon:[DAMAGE]:[RANGE]:[AP]\n");
+                    break;
+                }
+                selected.equiptedWeapon.damage          = int.Parse(msg[1]);
+                selected.equiptedWeapon.range           = int.Parse(msg[2]);
+                selected.equiptedWeapon.actionPoints    = int.Parse(msg[3]);
+                break;
+            case "EditAbility":
+            case "editAbility":
+                if (selected == null) break;
+                if (selected.abilities.Count <= 0) break;
+                if (msg.Length != 3) {
+                    print("[COMMAND FAILED] - EditAbility:[DAMAGE]:[RANGE]\n");
+                    break;
+                }
+                selected.equiptedWeapon.damage = int.Parse(msg[1]);
+                selected.equiptedWeapon.range = int.Parse(msg[2]);
+                break;
+        }
+
+        RunCommands();
     }
 }
