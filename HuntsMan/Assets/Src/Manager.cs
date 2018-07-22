@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 
+    public Canvas canvas;
+
     public static Manager instance;
     public static PlayerCamera playerCamera;
 
@@ -429,12 +431,14 @@ public class Manager : MonoBehaviour {
                     "\nQuit" +
                     "\nClose" +
                     "\nReset" +
+                    "\nCanvas:[BOOL]" +
+                    "\nOutline:[BOOL]" +
                     "\nPrint" +
                     "\nKill" +
                     "\nKillTeam:[TEAMID]" +
-                    "\nEditUnit" +
-                    "\nEditWeapon" +
-                    "\nEditAbility"
+                    "\nEditUnit:[HEALTH]:[AP]" +
+                    "\nEditWeapon:[DAMAGE]:[RANGE]:[AP]" +
+                    "\nEditAbility:[DAMAGE]:[RANGE]"
                     );
                 break;
             case "Done":
@@ -451,6 +455,48 @@ public class Manager : MonoBehaviour {
             case "Reset":
             case "reset":
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                break;
+            case "Outline":
+            case "outline":
+                if (canvas == null) break;
+                if (msg.Length != 2) {
+                    print("[COMMAND FAILED] - Outline:[BOOL]\n");
+                    break;
+                }
+                switch (msg[1]) {
+                    case "True":
+                    case "true":
+                        Camera.main.GetComponent<cakeslice.OutlineEffect>().enabled = true;
+                        break;
+                    case "False":
+                    case "false":
+                        Camera.main.GetComponent<cakeslice.OutlineEffect>().enabled = false;
+                        break;
+                    default:
+                        print("[COMMAND FAILED] - Outline:[BOOL]\n");
+                        break;
+                }
+                break;
+            case "Canvas":
+            case "canvas":
+                if (canvas == null) break;
+                if (msg.Length != 2) {
+                    print("[COMMAND FAILED] - Canvas:[BOOL]\n");
+                    break;
+                }
+                switch (msg[1]) {
+                    case "True":
+                    case "true":
+                        canvas.gameObject.SetActive(true);
+                        break;
+                    case "False":
+                    case "false":
+                        canvas.gameObject.SetActive(false);
+                        break;
+                    default:
+                        print("[COMMAND FAILED] - Canvas:[BOOL]\n");
+                        break;
+                }
                 break;
             case "Print":
             case "print":
@@ -479,6 +525,9 @@ public class Manager : MonoBehaviour {
                         for (int i = 0; i < team2.Count; i++)
                             team2[i].GetComponent<Unit>().health = 0;
                         break;
+                    default:
+                        print("[COMMAND FAILED] - KillTeam:[TEAMID]\n");
+                        break;
                 }
                 break;
             case "EditUnit":
@@ -488,8 +537,12 @@ public class Manager : MonoBehaviour {
                     print("[COMMAND FAILED] - EditUnit:[HEALTH]:[AP]\n");
                     break;
                 }
-                selected.health          = int.Parse(msg[1]);
-                selected.actionPoints    = int.Parse(msg[2]);
+                try {
+                    selected.health         = int.Parse(msg[1]);
+                    selected.actionPoints   = int.Parse(msg[2]);
+                } catch {
+                    print("[COMMAND FAILED] - EditUnit:[HEALTH]:[AP]\n");
+                }
                 break;
             case "EditWeapon":
             case "editWeapon":
@@ -498,9 +551,13 @@ public class Manager : MonoBehaviour {
                     print("[COMMAND FAILED] - EditWeapon:[DAMAGE]:[RANGE]:[AP]\n");
                     break;
                 }
-                selected.equiptedWeapon.damage          = int.Parse(msg[1]);
-                selected.equiptedWeapon.range           = int.Parse(msg[2]);
-                selected.equiptedWeapon.actionPoints    = int.Parse(msg[3]);
+                try {
+                    selected.equiptedWeapon.damage          = int.Parse(msg[1]);
+                    selected.equiptedWeapon.range           = int.Parse(msg[2]);
+                    selected.equiptedWeapon.actionPoints    = int.Parse(msg[3]);
+                } catch {
+                    print("[COMMAND FAILED] - EditWeapon:[DAMAGE]:[RANGE]:[AP]\n");
+                }
                 break;
             case "EditAbility":
             case "editAbility":
@@ -510,8 +567,15 @@ public class Manager : MonoBehaviour {
                     print("[COMMAND FAILED] - EditAbility:[DAMAGE]:[RANGE]\n");
                     break;
                 }
-                selected.equiptedWeapon.damage = int.Parse(msg[1]);
-                selected.equiptedWeapon.range = int.Parse(msg[2]);
+                try {
+                    selected.equiptedWeapon.damage  = int.Parse(msg[1]);
+                    selected.equiptedWeapon.range   = int.Parse(msg[2]);
+                } catch {
+                    print("[COMMAND FAILED] - EditAbility:[DAMAGE]:[RANGE]\n");
+                }
+                break;
+            default:
+                print("[COMMAND FAILED] - Unknown command\n");
                 break;
         }
 

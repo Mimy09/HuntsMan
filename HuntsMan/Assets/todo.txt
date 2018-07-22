@@ -17,3 +17,7 @@
  - Melee ability (Stare, stop attack of enemy for next turn)
 
 (done) - add monsters
+
+ - clear outline on death
+
+ - fix bug with invis wall grid selection

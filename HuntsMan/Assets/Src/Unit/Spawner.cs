@@ -16,7 +16,7 @@ public class Spawner : MonoBehaviour {
                     if (objSpawn == null || objSpawn.Length == 0) return;
 
                     GameObject temp = objSpawn[Random.Range(0, objSpawn.Length)] as GameObject;
-                    GameObject character = Instantiate(temp, transform.position, Quaternion.identity);
+                    GameObject character = Instantiate(temp, transform.position, transform.rotation);
                     character.GetComponent<Character>().SetTeam(teamID);
 
                     Manager.instance.AddToTeam(character, teamID);
@@ -27,7 +27,7 @@ public class Spawner : MonoBehaviour {
                     if (objSpawn == null || objSpawn.Length == 0) return;
 
                     GameObject temp = objSpawn[Random.Range(0, objSpawn.Length)] as GameObject;
-                    GameObject character = Instantiate(temp, transform.position, Quaternion.identity);
+                    GameObject character = Instantiate(temp, transform.position, transform.rotation);
                     character.GetComponent<Character>().SetTeam(teamID);
 
                     Manager.instance.AddToTeam(character, teamID);
