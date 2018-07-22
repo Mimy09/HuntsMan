@@ -1,10 +1,10 @@
 Mono path[0] = 'D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/Managed'
 Mono config path = 'D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/Mono/etc'
 PlayerConnection initialized from D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55429
-Multi-casting "[IP] 192.168.0.8 [Port] 55429 [Flags] 2 [Guid] 3530843830 [EditorId] 2362123361 [Version] 1048832 [Id] WindowsPlayer(Game-PC) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55429]
-PlayerConnection already initialized - listening to [0.0.0.0:55429]
+PlayerConnection initialized network socket : 0.0.0.0 55289
+Multi-casting "[IP] 192.168.0.8 [Port] 55289 [Flags] 2 [Guid] 468063878 [EditorId] 1156447751 [Version] 1048832 [Id] WindowsPlayer(Game-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55289]
+PlayerConnection already initialized - listening to [0.0.0.0:55289]
 Player data archive not found at `D:/ProgramFiles/Programming/_GIT/HuntsMan-builds/HuntsMan_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
@@ -27,15 +27,23 @@ Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Dat
 Loading D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\System.dll (this message is harmless)
 Platform assembly: D:\ProgramFiles\Programming\_GIT\HuntsMan-builds\HuntsMan_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.023 seconds
+- Completed reload, in  0.024 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.039677 ms
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Terrain/TreeDatabase.cpp Line: 140)
+
+UnloadTime: 0.914877 ms
 Setting up 6 worker threads for Enlighten.
-  Thread -> id: 28b8 -> priority: 1 
-  Thread -> id: 2dfc -> priority: 1 
-  Thread -> id: 12d4 -> priority: 1 
-  Thread -> id: 5424 -> priority: 1 
-  Thread -> id: 3570 -> priority: 1 
-  Thread -> id: 279c -> priority: 1 
+  Thread -> id: 4890 -> priority: 1 
+  Thread -> id: 5094 -> priority: 1 
+  Thread -> id: 67f8 -> priority: 1 
+  Thread -> id: 203c -> priority: 1 
+  Thread -> id: 6d4c -> priority: 1 
+  Thread -> id: 5ddc -> priority: 1 
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Allocator/ThreadsafeLinearAllocator.cpp Line: 371)
+
