@@ -1,5 +1,8 @@
+![Branching](https://cdn.discordapp.com/attachments/461079032226643981/469369232279207937/HunstManLight.jpg)
+
 <h2>Builds</h2>
 
+* [Download build (v0.7-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.7-prototype "HuntsMan")
 * [Download build (v0.6-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.6-prototype "HuntsMan")
 * [Download build (v0.5-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.5-prototype "HuntsMan")
 * [Download build (v0.4a-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.4a-prototype "HuntsMan")
@@ -7,6 +10,12 @@
 * [Download build (v0.3-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.3-prototype "HuntsMan")
 * [Download build (v0.2a-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2a-prototype "HuntsMan")
 * [Download build (v0.2-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2-prototype "HuntsMan")
+
+<h2>Added (v0.7-prototype)</h2>
+
+* Added monster and human textures
+* Added new environment
+* Added new debug console
 
 <h2>Added (v0.6-prototype)</h2>
 
@@ -52,11 +61,24 @@
 
 <h2>Info</h2>
 
-| Units        | Color             |
+<b>Console</b>
+* The console will show all logs and errors and will also alow for command inputs.
+
+list of console inputs
+
+| Key          | Description       |
 |:-------------|:------------------|
-| Melee        | Black             |
-| Range        | Green             |
-| Magic        | Purple            |
+| ~        | Start console input             |
+| Done        | Ends console input             |
+| Close        | Closes the console            |
+| Quit        | Quits the application            |
+| Reset        | Resets the scene            |
+| Print        | Prints the selected units stats            |
+| Kill        | Kills the selected unit            |
+| KillTeam:{TEAMID}        | Kills everyone on the team            |
+| EditUnit:{HEALTH}:{AP}        | Edits the selected units stats            |
+| EditWeapon:{DAMAGE}:{RANGE}:{AP}        | Edits the selected units weapon stats            |
+| EditAbility:{DAMAGE}:{RANGE}        | Edits the selected units ability stats            |
 
 <h2>Controls</h2>
 
@@ -75,13 +97,9 @@ will be outlined.
 | Space  | End Turn            |
 | ESC  | Quit            |
 
-<h2>UI</h2>
-
-<b>Console</b>
-* This displays any errors or logs that happen in game and will output them to a file called DebugLog.txt that is located in the data file next to the .exe
-
 <b>Attack</b>
 * This will outline enemys that are in range when hovering over the button. When clicked will activate the weapon and then you can select the enemy you want to attck
+
 
 
 
