@@ -1,4 +1,4 @@
-![Branching](https://cdn.discordapp.com/attachments/461079032226643981/470422388035682305/HunstManLight.png)
+![Branching](https://i.imgur.com/1pkVvD4.png)
 
 <h2>Builds</h2>
 
