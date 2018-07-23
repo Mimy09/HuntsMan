@@ -96,7 +96,9 @@ public class GridGen : MonoBehaviour {
                 gridTile.GetComponent<GridID>().ID = info.gridIDs[x][y];
 
                 Material mat = gridTile.GetComponent<MeshRenderer>().material;
-                mat.color = new Color((float)info.gridIDs[x][y] / (float)AP, 1 - (float)info.gridIDs[x][y] / (float)AP, 1 - (float)info.gridIDs[x][y] / (float)AP, 1);
+                Color color = new Color((float)info.gridIDs[x][y] / (float)AP, 1 - (float)info.gridIDs[x][y] / (float)AP, 1 - (float)info.gridIDs[x][y] / (float)AP, 1);
+                mat.color = color;
+                mat.SetColor("_EmissionColor", color);
                 gridTile.GetComponent<MeshRenderer>().material = mat;
             }
         }

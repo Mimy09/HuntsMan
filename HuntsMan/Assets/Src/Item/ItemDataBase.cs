@@ -39,7 +39,7 @@ public class ItemDataBase : MonoBehaviour {
             "Default Melee Weapon", // Description
             weapons.Count,          // ID
             3),                     // Action Points
-            35,                      // Damage
+            35,                     // Damage
             1.5f,                   // CritDamage
             10,                     // CritChance
             3,                      // Range
@@ -164,7 +164,7 @@ public class ItemDataBase : MonoBehaviour {
 
             // Ability function
             (Unit unit, Unit other, Ability ability) => {
-                return Ability_AOE(unit, other, ability, EffectType.IceBall, 13);
+                return Ability_AOE(unit, other, ability, EffectType.IceBall, 7);
             }));
 
     }

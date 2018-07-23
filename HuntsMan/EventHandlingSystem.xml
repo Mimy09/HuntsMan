@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<EventCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ObjectList>
+    <Object ObjectName="Manager (EHS_Manager)">
+      <EventList>
+        <Event>SUBSCRIBING :: ID=0 :: NAME=HandleEvents :: Time=0</Event>
+        <Event>RAISE :: NAME=HandleEvents :: FROM=Manager (EHS_Manager) :: Time=0</Event>
+        <Event>INVOKE :: ARG=_INIT_ :: VALUE=True :: Time=0</Event>
+        <Event>INVOKE :: ARG=_CLOSE_ :: Time=18.06791</Event>
+      </EventList>
+    </Object>
+  </ObjectList>
+</EventCollection>

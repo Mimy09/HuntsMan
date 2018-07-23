@@ -49,6 +49,14 @@ public class Manager : MonoBehaviour {
         targeted = null;
     }
 
+    public void OnLevelWasLoaded(int level) {
+        ClearSelected();
+        ClearSelectedItems();
+        ClearTargeted();
+        team1.Clear();
+        team2.Clear();
+    }
+
     public List<GameObject> GetTeam(int team) {
         switch (team) {
             case 1:

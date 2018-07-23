@@ -1,6 +1,7 @@
 ﻿Shader "Custom/Dissolve"
 {
 	Properties{
+		_MainTex("Tex", 2D) = "white" {}
 		_BaseColor("Albedo", 2D) = "white" {}
 		_AO("AO", 2D) = "white" {}
 		_Color("Color", Color) = (1, 1, 1, 1)
@@ -33,6 +34,7 @@
 			float3 worldNormal; INTERNAL_DATA
 		};
 
+		sampler2D _MainTex;
 		sampler2D _BaseColor;
 		sampler2D _AO;
 		sampler2D _Metallic;

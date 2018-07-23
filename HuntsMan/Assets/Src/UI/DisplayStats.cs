@@ -15,6 +15,8 @@ public class DisplayStats : MonoBehaviour {
         WEAPON,
         ABILITY,
         TURN,
+        FPS,
+        
     } public StatType statType;
 
     public enum UIType {

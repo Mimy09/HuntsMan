@@ -79,13 +79,13 @@ public class Character : Unit {
         }
     }
 
-    void OnDrawGizmosSelected() {
-        if (Application.isPlaying) {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position, equiptedWeapon.range);
+    //void OnDrawGizmosSelected() {
+    //    if (Application.isPlaying) {
+    //        Gizmos.color = Color.red;
+    //        Gizmos.DrawWireSphere(transform.position, equiptedWeapon.range);
 
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawWireSphere(transform.position, abilities[0].range);
-        }
-    }
+    //        Gizmos.color = Color.yellow;
+    //        Gizmos.DrawWireSphere(transform.position, abilities[0].range);
+    //    }
+    //}
 }

@@ -9,6 +9,7 @@ public class Unit : MonoBehaviour {
     public float health;
     public int actionPoints;
     private int maxActionPoionts;
+    public float damage_delay = 0;
     
     // Graphics Objects
     public List<GameObject> graphics = new List<GameObject>();
@@ -64,6 +65,8 @@ public class Unit : MonoBehaviour {
     // Team Variables
     private int teamID;
     private bool isTeamTurn;
+
+    private bool attacking = false;
 
     public virtual void Start() {
         canMove = true;
@@ -158,7 +161,7 @@ public class Unit : MonoBehaviour {
                 case 0:
                     Unit g = Camera.main.GetComponent<PlayerCamera>().SelectCharacter();
                     if (g != null) {
-                        if (circle == null) circle = Circle.GenCercle(g.transform.position, 13);
+                        if (circle == null) circle = Circle.GenCercle(g.transform.position, 7);
                     } else {
                         if (circle != null) Destroy(circle);
                     }
@@ -173,11 +176,20 @@ public class Unit : MonoBehaviour {
             animator.SetBool("Dead", true);
 
             if (GetDissolve() < 1) {
+                graphicsOutLine.eraseRenderer = true;
                 SetDissolve(GetDissolve() + (Time.deltaTime/4));
             } else {
                 Manager.instance.RemoveFromTeam(gameObject, teamID);
                 Destroy(this.gameObject);
             }
+        }
+
+        if (attacking == true) {
+            attacking = false;
+            return;
+        }
+        if (animator.GetBool("Cast")) {
+            animator.SetBool("Cast", false);
         }
     }
 
@@ -220,6 +232,11 @@ public class Unit : MonoBehaviour {
             actionPoints -= equiptedWeapon.actionPoints;
             ClearGrid();
             CreateGrid();
+
+            attacking = true;
+            animator.SetBool("Cast", true);
+
+            transform.LookAt(other.transform);
         }
     }
 

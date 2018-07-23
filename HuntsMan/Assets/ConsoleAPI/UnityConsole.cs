@@ -42,9 +42,9 @@ namespace UnityEngine.Console {
             stacktrace = stackTrace;
 
             if (type == LogType.Error) {
-                Instance.LogConsole("\n" + logString + "\n" + stackTrace + "-------------------------\n");
+                Instance.LogConsole("\n" + logString + "\n" + stackTrace + ":" + Time.time + "-------------------------\n");
             } else {
-                Instance.LogConsole(logString + "\n");
+                Instance.LogConsole(logString + ":" + Time.time + "\n");
             }
         }
 
