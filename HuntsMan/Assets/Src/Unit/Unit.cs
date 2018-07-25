@@ -226,17 +226,21 @@ public class Unit : MonoBehaviour {
         Destroy(grid);
     }
 
-    public virtual void Attack(Unit other) {
-        if (equiptedWeapon.actionPoints > actionPoints) return;
+    public virtual IEnumerator Attack(Unit other) {
+        if (equiptedWeapon.actionPoints > actionPoints) yield break;
+        actionPoints -= equiptedWeapon.actionPoints;
+
+        attacking = true;
+        animator.SetBool("Cast", true);
+        transform.LookAt(other.transform);
+
+        yield return new WaitForSeconds(damage_delay);
+
         if (equiptedWeapon.UseWeapon(this, other)) {
-            actionPoints -= equiptedWeapon.actionPoints;
+
             ClearGrid();
             CreateGrid();
 
-            attacking = true;
-            animator.SetBool("Cast", true);
-
-            transform.LookAt(other.transform);
         }
     }
 

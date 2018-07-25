@@ -81,9 +81,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DisolveDistance: 1
     - _DisolveRate: 5
-    - _DissolveDistance: 2
+    - _DissolveDistance: 0
     - _DissolvePercentage: 7
-    - _DissolveRate: 3
+    - _DissolveRate: 0
     - _Distance: 10
     - _DstBlend: 0
     - _GlossMapScale: 1

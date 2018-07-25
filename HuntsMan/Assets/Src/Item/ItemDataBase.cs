@@ -42,7 +42,7 @@ public class ItemDataBase : MonoBehaviour {
             35,                     // Damage
             1.5f,                   // CritDamage
             10,                     // CritChance
-            3,                      // Range
+            5,                      // Range
             Weapon.Item_Type.Melee, // Type
 
             // Weapon function
@@ -55,7 +55,7 @@ public class ItemDataBase : MonoBehaviour {
             "Default Magic Weapon", // Description
             weapons.Count,          // ID
             2),                     // Action Points
-            25,                     // Damage
+            20,                     // Damage
             2.0f,                   // CritDamage
             30,                     // CritChance
             13,                     // Range
@@ -91,7 +91,7 @@ public class ItemDataBase : MonoBehaviour {
             20,                     // Damage
             1.5f,                   // CritDamage
             10,                     // CritChance
-            3,                      // Range
+            5,                      // Range
             Weapon.Item_Type.Melee, // Type
 
             // Weapon function
@@ -104,7 +104,7 @@ public class ItemDataBase : MonoBehaviour {
             "Default Magic Weapon", // Description
             weapons.Count,          // ID
             2),                     // Action Points
-            20,                     // Damage
+            15,                     // Damage
             2.0f,                   // CritDamage
             20,                     // CritChance
             13,                     // Range
@@ -120,7 +120,7 @@ public class ItemDataBase : MonoBehaviour {
             "Default Ranged Weapon",// Description
             weapons.Count,          // ID
             2),                     // Action Points
-            15,                     // Damage
+            10,                     // Damage
             1.5f,                   // CritDamage
             15,                     // CritChance
             17,                     // Range

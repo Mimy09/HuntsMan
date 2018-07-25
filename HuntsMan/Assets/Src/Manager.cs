@@ -361,7 +361,7 @@ public class Manager : MonoBehaviour {
 
                                 // Attack using ether weapon or ability
                                 if (selected.weaponSelected) {
-                                    selected.Attack(target);
+                                    StartCoroutine( selected.Attack(target) );
                                 } else if (selected.abilitySelected != -1) {
                                     selected.UseAbility(selected.abilitySelected, target);
                                 }
@@ -405,7 +405,7 @@ public class Manager : MonoBehaviour {
 
                         // Attack using ether weapon or ability
                         if (selected.weaponSelected) {
-                            selected.Attack(target);
+                            StartCoroutine(selected.Attack(target) );
                             selected.weaponSelected = false;
                         } else if (selected.abilitySelected != -1) {
                             selected.UseAbility(selected.abilitySelected, target);
