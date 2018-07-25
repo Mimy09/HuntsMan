@@ -16,7 +16,8 @@ public class DisplayStats : MonoBehaviour {
         ABILITY,
         TURN,
         FPS,
-        
+        HEALTH,
+        AP,
     } public StatType statType;
 
     public enum UIType {
@@ -65,6 +66,16 @@ public class DisplayStats : MonoBehaviour {
                         else if (uiType == UIType.CANVAS)
                             canvas_text.text = "Ability";
                         break;
+                    case StatType.HEALTH:
+                        if (uiType == UIType.CANVAS) {
+                            canvas_text.text = "";
+                        }
+                        break;
+                    case StatType.AP:
+                        if (uiType == UIType.CANVAS) {
+                            canvas_text.text = "";
+                        }
+                        break;
                     case StatType.TURN:
                         if (uiType == UIType.TEXT3D) {
                             if (Manager.instance.GetWinStat() == 1) {
@@ -108,6 +119,20 @@ public class DisplayStats : MonoBehaviour {
         }
 
         switch (statType) {
+            case StatType.HEALTH:
+                if (uiType == UIType.CANVAS) {
+                    if (Manager.instance.GetSelected() != null) {
+                        canvas_text.text = Manager.instance.GetSelected().health.ToString();
+                    }
+                }
+                break;
+            case StatType.AP:
+                if (uiType == UIType.CANVAS) {
+                    if (Manager.instance.GetSelected() != null) {
+                        canvas_text.text = Manager.instance.GetSelected().actionPoints.ToString();
+                    }
+                }
+                break;
             case StatType.UNIT:
                 if (uiType == UIType.TEXT3D)
                     text.text = unit.GetStats();
