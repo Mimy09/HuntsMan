@@ -281,15 +281,15 @@ public class Manager : MonoBehaviour {
             LookAtTeam();
         }
 
-        // Use Weapon
-        if (Input.GetKeyDown(KeyCode.Q)) {
-            UseWeapon();
-        }
+        //// Use Weapon
+        //if (Input.GetKeyDown(KeyCode.Q)) {
+        //    UseWeapon();
+        //}
 
-        // Ability Attack (0)
-        if (Input.GetKeyDown(KeyCode.W)) {
-            UseAbility(0);
-        }
+        //// Ability Attack (0)
+        //if (Input.GetKeyDown(KeyCode.W)) {
+        //    UseAbility(0);
+        //}
 
         // Switch team
         if (Input.GetKeyDown(KeyCode.Space)) {

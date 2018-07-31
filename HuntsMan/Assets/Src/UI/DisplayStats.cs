@@ -7,8 +7,9 @@ public class DisplayStats : MonoBehaviour {
 
     TextMesh text;
     Text canvas_text;
-
     Unit unit;
+    public Button Attack_Button;
+
 
     public enum StatType {
         UNIT,
@@ -130,6 +131,17 @@ public class DisplayStats : MonoBehaviour {
                 if (uiType == UIType.CANVAS) {
                     if (Manager.instance.GetSelected() != null) {
                         canvas_text.text = Manager.instance.GetSelected().actionPoints.ToString();
+
+                        //GameObject grid = Camera.main.GetComponent<PlayerCamera>().SelectGrid();
+                        //if (grid != null) {
+                        //    canvas_text.text = (Manager.instance.GetSelected().actionPoints - grid.GetComponent<GridID>().ID).ToString();
+                        //}
+
+                        if (Attack_Button != null) {
+                            if (Attack_Button.gameObject.GetComponent<UICaller>().isChecking) {
+                                canvas_text.text = (Manager.instance.GetSelected().actionPoints - Manager.instance.GetSelected().equiptedWeapon.actionPoints).ToString();
+                            }
+                        }
                     }
                 }
                 break;

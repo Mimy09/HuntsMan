@@ -76,14 +76,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _BurnSize: 0.2
+    - _BurnSize: 0
     - _Cutoff: 0
     - _DetailNormalMapScale: 1
     - _DisolveDistance: 1
     - _DisolveRate: 5
-    - _DissolveDistance: 3
+    - _DissolveDistance: 2
     - _DissolvePercentage: 7
-    - _DissolveRate: 2
+    - _DissolveRate: 3
     - _Distance: 10
     - _DstBlend: 0
     - _GlossMapScale: 1

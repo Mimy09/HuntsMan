@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+using UnityEditor;
 using System;
 using System.Reflection;
 
@@ -51,3 +52,4 @@ public class EnableAllGizmos
         }
     }
 }
+#endif

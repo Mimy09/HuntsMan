@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d560cfa0dca0064aa730c8b30e134ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 80
+  health: 70
   actionPoints: 7
   damage_delay: 0.15
   graphics:
@@ -1381,6 +1381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c64c2c016a087a745b36d9bd2c501243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Attack_Button: {fileID: 0}
   statType: 0
   uiType: 0
   useParent: 1

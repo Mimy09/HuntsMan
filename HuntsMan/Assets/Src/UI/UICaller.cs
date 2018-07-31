@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UICaller : MonoBehaviour {
 
-    bool isChecking;
+    public bool isChecking;
 
 	public void CheckAbility(int ID) {
         isChecking = true;
