@@ -2,6 +2,7 @@
 
 <h2>Builds</h2>
 
+* [Download build (v0.9-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.9-prototype "HuntsMan")
 * [Download build (v0.8-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.8-prototype "HuntsMan")
 * [Download build (v0.7-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.7-prototype "HuntsMan")
 * [Download build (v0.6-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.6-prototype "HuntsMan")
@@ -11,6 +12,11 @@
 * [Download build (v0.3-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.3-prototype "HuntsMan")
 * [Download build (v0.2a-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2a-prototype "HuntsMan")
 * [Download build (v0.2-prototype)](https://github.com/Mimy09/HuntsMan/releases/tag/v0.2-prototype "HuntsMan")
+
+
+<h2>Added (v0.9-prototype)</h2>
+
+* Started implementing new UI
 
 <h2>Added (v0.8-prototype)</h2>
 
